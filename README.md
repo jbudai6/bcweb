@@ -21,3 +21,9 @@ Run the following to set up angular:
 - Run command `node app.js`
 - You should be met with the following response: `Server running at http://127.0.0.1:3000/`
 - In your browser, open the following to see output: `http://localhost:3000/`
+
+## References
+These might be helpful connecting nodejs backend with angular backend:
+- https://therichpost.com/how-to-use-angular-11-as-frontend-and-nodejs-as-backend/
+- https://dev.to/rajesh04159786/connecting-angular-application-with-nodejs-backend-1l81
+- https://github.com/bbachi/angular-nodejs-example
