@@ -23,7 +23,7 @@ Run the following to set up angular:
 - In your browser, open the following to see output: `http://localhost:3000/`
 
 ## References
-These might be helpful connecting nodejs backend with angular backend:
+These might be helpful connecting nodejs back-end with angular front-end:
 - https://therichpost.com/how-to-use-angular-11-as-frontend-and-nodejs-as-backend/
 - https://dev.to/rajesh04159786/connecting-angular-application-with-nodejs-backend-1l81
 - https://github.com/bbachi/angular-nodejs-example
