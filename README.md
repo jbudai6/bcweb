@@ -8,7 +8,7 @@
 Run the following to set up angular:
 - `npm install -g @angular/cli`
 - `ng new angularnode`
-  - Note: if you are getting a bullshit "You are unauthorized to run scripts" error at this step, run the following command, as administrator, `Set-ExecutionPolicy RemoteSigned`
+  - Note: if you are getting a bullshit `you are unauthorized to run scripts` error at this step, run the following command, as administrator, `Set-ExecutionPolicy RemoteSigned`
 - `Would you like to add Angular routing?` YES
 - `Which stylesheet format would you like to use?` CSS
 - `cd angularnode`
