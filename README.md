@@ -1,7 +1,9 @@
 # bcweb
 **Note:** All command line steps are performed using Windows PowerShell
 ## Pre-requisites 
-- Install GitHub Desktop (or fight with git if you want your life to be hard) and clone repo.
+- Install GitHub Desktop (here: https://desktop.github.com/) or fight with git if you hate yourself lol
+- Clone repo 
+- Download nodejs (here: https://nodejs.org/en/download/)
 - Set up Angular (details below)
 
 ## Set up Angular
