@@ -1,31 +1,27 @@
 # bcweb
-**Note:** All command line steps are performed using Windows PowerShell
-## Pre-requisites 
-- Install GitHub Desktop (here: https://desktop.github.com/) or fight with git if you hate yourself lol
-- Clone repo 
-- Download nodejs (here: https://nodejs.org/en/download/)
-- Set up Angular (details below)
+# Pre-requisites
+## Installations 
+- Install GitHub Desktop (here: https://desktop.github.com/) and clone repo
+- Install VS Code (IDE) 
+- Install Node (here: https://nodejs.org/en/download/)
 
-## Set up Angular
-Run the following to set up angular:
-- `npm install -g @angular/cli`
-- `ng new angularnode`
-  - **Note:** if you are getting a bullshit `you are unauthorized to run scripts` error at this step, run the following command, as administrator, `Set-ExecutionPolicy RemoteSigned`
-- `Would you like to add Angular routing?` YES
-- `Which stylesheet format would you like to use?` CSS
-- `cd angularnode`
-- `ng serve --open` // to compile and run
-- `http://localhost:4200/`
-- Yay, you did it!
+# Run Application
+## Installing necessary packages
+- Navigate to the top level of project directory (containing `package.json`)
+- Run `npm install` to install packages contained in `package.json`
+- Run `npm start` to start the installed Angular application
 
-## Running App
-- Navigate to bcweb repo
-- Run command `node app.js`
-- You should be met with the following response: `Server running at http://127.0.0.1:3000/`
-- In your browser, open the following to see output: `http://localhost:3000/`
+# For Reference 
+## Creating a new angular application
+- npm install -g @angular/cli
+- navigate to desired directory
+- ng new <angular project name> --prefix pm
+- Angular routing? No (for now)
+- CSS
+- navigate to <angualr project name> directory
+- `ng serve`
 
-## References
-These might be helpful connecting nodejs back-end with angular front-end:
-- https://therichpost.com/how-to-use-angular-11-as-frontend-and-nodejs-as-backend/
-- https://dev.to/rajesh04159786/connecting-angular-application-with-nodejs-backend-1l81
-- https://github.com/bbachi/angular-nodejs-example
+## Debugging
+- Run command `ng build` for more helpful build errors (note: will need to globally install angular cli prior to being able to use ng command)
+- Run command `node -v` for the version of node js you are using
+- To get more help on the Angular CLI use `ng help`
