@@ -54,62 +54,97 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 		
 		
 	<div class="row limited">      
-        <section class="column small-12 medium-6 large-4">
-            <h1>Why Invest?</h1>
-        </section>
-    </div> <!-- end row -->
-	
-	
-	<div class="row limited">     
-        <section class="column small-12 medium-6 large-4">
+        <div class="column">
+			<section class="small-12 medium-6 large-4">
+				<h1>Why Invest?</h1>
+			</section>	
+			
+			<div class="row">
+			<section class="column small-12 medium-6 large-2">
+				<div class="image-txt-container">
+				<img src="images/Why Invest icons/jam_dna.svg" alt="Jam DNA">
+				<h2>
+					Contribute to cutting-edge biomedical technology
+				</h2>
+				</div>
+			</section>
+			
+			<section class="column small-12 medium-6 large-2">
 			<div class="image-txt-container">
-			<img src="images/Why Invest icons/jam_dna.svg" alt="Jam DNA">
-			<h2>
-				Contribute to cutting-edge biomedical technology
-			</h2>
+					<img src="images/Why Invest icons/local_hospital.svg" alt="Hospital">
+				<h2>Help be a part of curing disease with unmet medical needs</h2>
 			</div>
-		</section>
+			</section>
+			</div>
+	
+	
+		<div class="row">	
+			<section class="column small-12 medium-6 large-2">
+			<div class="image-txt-container">
+			<img src="images/Why Invest icons/forum.svg" alt="Forum">
+				<h2>Connect and chat directly with company founders and executives</h2>
+				</div>
+			</section>
+			
+			
+			<section class="column small-12 medium-6 large-2">
+			<div class="image-txt-container">
+			<img src="images/Why Invest icons/work.svg" alt="Briefcase">
+				<h2>Diversify your investment portfolio into private biotech companies</h2>
+				</div>
+			</section>
+		</div> <!-- end row -->
+	
+		<div class="row">  
+			<section class="column small-12 medium-6 large-2">
+			<div class="image-txt-container">
+					<img src="images/Why Invest icons/carbon_information-filled.svg" alt="Information">
+				<h2>Get informed about the biotech ecosystem</h2>
+				</div>
+			</section>
+			
+			<section class="column small-12 medium-6 large-2">
+			<div class="image-txt-container">
+			<img src="images/Why Invest icons/check_box.svg" alt="Jam DNA">
+				<h2>Commission-free investing and only $100 to get started</h2>
+				</div>
+			</section>
+		</div> <!-- end row -->
+
+			
+
+		</div><!-- end column -->
 		
-		<section class="column small-12 medium-6 large-4">
-		<div class="image-txt-container">
-				<img src="images/Why Invest icons/local_hospital.svg" alt="Hospital">
-            <h2>Help be a part of curing disease with unmet medical needs</h2>
-		</div>
-        </section>
+		
+		<div class="column small-12 medium-6 large-2">
+			<img src="images/Why_invest.png" alt="Why Invest">	
+		</div><!-- end column -->
+		
     </div> <!-- end row -->
 	
-	<div class="row limited">	
-        <section class="column small-12 medium-6 large-4">
-		<div class="image-txt-container">
-		<img src="images/Why Invest icons/forum.svg" alt="Forum">
-            <h2>Connect and chat directly with company founders and executives</h2>
-			</div>
-        </section>
-		
-		
-		<section class="column small-12 medium-6 large-4">
-		<div class="image-txt-container">
-		<img src="images/Why Invest icons/work.svg" alt="Briefcase">
-            <h2>Diversify your investment portfolio into private biotech companies</h2>
-			</div>
-        </section>
-    </div> <!-- end row -->
 	
-	<div class="row limited">  
-        <section class="column small-12 medium-6 large-4">
-		<div class="image-txt-container">
-				<img src="images/Why Invest icons/carbon_information-filled.svg" alt="Information">
-            <h2>Get informed about the biotech ecosystem</h2>
-			</div>
-        </section>
-		
-        <section class="column small-12 medium-6 large-4">
-		<div class="image-txt-container">
-		<img src="images/Why Invest icons/check_box.svg" alt="Jam DNA">
-            <h2>Commission-free investing and only $100 to get started</h2>
-			</div>
-        </section>
-    </div> <!-- end row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
@@ -124,16 +159,16 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
         <section class="column small-12 medium-6 large-4">
 			<div class="image-txt-container">
 			<img src="images/Why Fundraise icons/bi_bar-chart-fill.svg" alt="Bar Chart">
-			<h2>
+			<h3>
 				Skip pitching to VCs and raise up to $5 million from individual investors every year.
-			</h2>
+			</h3>
 			</div>
 		</section>
 		
 		<section class="column small-12 medium-6 large-4">
 		<div class="image-txt-container">
 				<img src="images/Why Fundraise icons/record_voice_over.svg" alt="Record Voice Over">
-            <h2>Be the CEO. The Biotech Collective imposes no management decisions on your company.</h2>
+            <h3>Be the CEO. The Biotech Collective imposes no management decisions on your company.</h3>
 		</div>
         </section>
     </div> <!-- end row -->
@@ -143,26 +178,21 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
         <section class="column small-12 medium-6 large-4">
 			<div class="image-txt-container">
 			<img src="images/Why Fundraise icons/verified_user.svg" alt="Verified User">
-			<h2>
+			<h3>
 				Access to the aggregated capital of private investors from the U.S. and around the world.
-			</h2>
+			</h3>
 			</div>
 		</section>
 		
 		<section class="column small-12 medium-6 large-4">
 		<div class="image-txt-container">
 				<img src="images/Why Fundraise icons/foundation_target-two.svg" alt="Target">
-            <h2>The only upfront payments to fundraise is your own time. You pay our fees only when you successfully hit your fundraising target.</h2>
+            <h3>The only upfront payments to fundraise is your own time. You pay our fees only when you successfully hit your fundraising target.</h3>
 		</div>
         </section>
     </div> <!-- end row -->
 	
-	
-	
-	
-	
-	
-	
+
 	</div>
 
 	
@@ -186,9 +216,32 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	
 	<div class="row limited">
         <section class="column small-12 medium-6 large-3">
+            <h2>The Biotech Collective is a modern investment platform that enables all investors to invest in early-stage biotech companies.</h2>
+        </section>
+    </div> <!-- end row -->	
+	
+	<div class="row limited">
+        <section class="column small-12 medium-6 large-3">
+            <h3>Traditionally, only investors with deep pockets could invest in private biotech companies on the cutting-edge of medical 
+			technology seeking to bring transformative cures to diseases with unmet medical needs.  Our platform leverages recently passed 
+			SEC regulations, opening up such investment opportunities and allowing any investor to purchase equity directly in early-stage 
+			biotech companies.</h3>
+        </section>
+    </div> <!-- end row -->	
+	
+	
+	
+	
+	
+	<div class="row dark-background">
+	<div class="row limited">
+        <section class="column small-12 medium-6 large-3">
             <h1>Get In Touch:</h1>
         </section>
     </div> <!-- end row -->	
+	</div>
+	
+	
 	
     </main>
     

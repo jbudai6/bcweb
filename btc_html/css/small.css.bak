@@ -69,10 +69,6 @@ header{
 	color: #FFFFFF;
 }
 
-header h1{
-	font-size: 32px;
-}
-
 header h2{
     font-style: bold
     margin: 1rem 0 .3rem 0;
