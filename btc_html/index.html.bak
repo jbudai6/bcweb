@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+<title>Home | The Biotech Collective</title>
+</head>
+
+<body>
+    <header class="clearfix">
+	<div class="row limited">
+		<section class="column small-12">
+		<img src="images/Colored logo.svg" alt="Biotech Collective Logo">
+		</section>
+		</div><!-- end row -->
+
+    <nav class="clearfix">
+        <div class="row limited">
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li class="active"><a href="index.html">About Us</a></li>
+            <li class="active"><a href="index.html">Why Invest?</a></li>
+            <li class="active"><a href="index.html">Why Fundraise?</a></li>
+        </ul>
+        </div> <!-- end row -->
+    </nav>
+
+	<div class="row limited">
+       
+        <section class="column small-12 medium-6 large-4">
+            <h1>Anyone should be able to invest in biotech.  Every life-changing idea deserves funding.
+Own a stake in early-stage biotech companies, pre-IPO.</h1>
+        </section>
+    </div> <!-- end row -->
+
+
+    </header>
+    
+
+    
+    <main>	
+	
+
+		
+		
+	<div class="row limited">      
+        <section class="column small-12 medium-6 large-4">
+            <h1>Why Invest?</h1>
+        </section>
+    </div> <!-- end row -->
+	
+	
+	<div class="row limited">     
+        <section class="column small-12 medium-6 large-4">
+			<div class="image-txt-container">
+			<img src="images/Why Invest icons/jam_dna.svg" alt="Jam DNA">
+			<h2>
+				Contribute to cutting-edge biomedical technology
+			</h2>
+			</div>
+		</section>
+		
+		<section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+				<img src="images/Why Invest icons/local_hospital.svg" alt="Hospital">
+            <h2>Help be a part of curing disease with unmet medical needs</h2>
+		</div>
+        </section>
+    </div> <!-- end row -->
+	
+	<div class="row limited">	
+        <section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+		<img src="images/Why Invest icons/forum.svg" alt="Forum">
+            <h2>Connect and chat directly with company founders and executives</h2>
+			</div>
+        </section>
+		
+		
+		<section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+		<img src="images/Why Invest icons/work.svg" alt="Briefcase">
+            <h2>Diversify your investment portfolio into private biotech companies</h2>
+			</div>
+        </section>
+    </div> <!-- end row -->
+	
+	<div class="row limited">  
+        <section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+				<img src="images/Why Invest icons/carbon_information-filled.svg" alt="Information">
+            <h2>Get informed about the biotech ecosystem</h2>
+			</div>
+        </section>
+		
+        <section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+		<img src="images/Why Invest icons/check_box.svg" alt="Jam DNA">
+            <h2>Commission-free investing and only $100 to get started</h2>
+			</div>
+        </section>
+    </div> <!-- end row -->
+	
+	
+	
+	<div class="row dark-background">
+	<div class="row limited" >       
+        <section class="column small-12 medium-6 large-3">
+            <h1>Why Fundraise?</h1>
+        </section>
+    </div> <!-- end row -->	
+	
+	<div class="row limited">     
+        <section class="column small-12 medium-6 large-4">
+			<div class="image-txt-container">
+			<img src="images/Why Fundraise icons/bi_bar-chart-fill.svg" alt="Bar Chart">
+			<h2>
+				Skip pitching to VCs and raise up to $5 million from individual investors every year.
+			</h2>
+			</div>
+		</section>
+		
+		<section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+				<img src="images/Why Fundraise icons/record_voice_over.svg" alt="Record Voice Over">
+            <h2>Be the CEO. The Biotech Collective imposes no management decisions on your company.</h2>
+		</div>
+        </section>
+    </div> <!-- end row -->
+	
+	
+	<div class="row limited">     
+        <section class="column small-12 medium-6 large-4">
+			<div class="image-txt-container">
+			<img src="images/Why Fundraise icons/verified_user.svg" alt="Verified User">
+			<h2>
+				Access to the aggregated capital of private investors from the U.S. and around the world.
+			</h2>
+			</div>
+		</section>
+		
+		<section class="column small-12 medium-6 large-4">
+		<div class="image-txt-container">
+				<img src="images/Why Fundraise icons/foundation_target-two.svg" alt="Target">
+            <h2>The only upfront payments to fundraise is your own time. You pay our fees only when you successfully hit your fundraising target.</h2>
+		</div>
+        </section>
+    </div> <!-- end row -->
+	
+	
+	
+	
+	
+	
+	
+	</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="row limited">
+        <section class="column small-12 medium-6 large-3">
+            <h1>About Us</h1>
+        </section>
+    </div> <!-- end row -->	
+	
+	<div class="row limited">
+        <section class="column small-12 medium-6 large-3">
+            <h1>Get In Touch:</h1>
+        </section>
+    </div> <!-- end row -->	
+	
+    </main>
+    
+        <footer class="clearfix">
+		
+		<div class="row limited">
+		<section class="column small-12">
+		<img src="images/Colored logo 2.svg" alt="Biotech Collective Logo">
+		</section>
+		</div><!-- end row -->
+		
+        <div class="row limited">
+       
+        <section class="column small-12 medium-6 large-3">
+            <h2>Home</h2>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>About Us</h2>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>Why Invest?</h2>
+        </section>
+         <section class="column small-12 medium-6 large-3">
+            <h2>Why Fundraise?</h2>
+        </section>
+        </div> <!-- end row -->
+		
+		<div class="row limited">
+		<section class="column small-12">
+			Copyright © 2022
+		</section>
+		</div> <!-- end row -->
+    </footer>
+    
+    
+</body>
+</html>

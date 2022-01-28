@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home | The Biotech Collective</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.component.css">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="small.css">
+<link rel="stylesheet" href="medium.css">
+<link rel="stylesheet" href="lerge.css">
+</head>
+<body>
+  <pm-root></pm-root>
+</body>
+</html>
