@@ -3,10 +3,17 @@
     
    /* GRID */
     .large-2 {width: 16.66%;}
-	.large-3 {width: 25%;}
+    .large-3 {width: 25%;}
     .large-4 {width: 33.33%;}
 	
-    
+    img {
+        max-width: 1920px;
+    }
+
+    .img-large-8 img {
+        height: 66.666666%;
+        width: 66.666666%;
+    }
     
     
     
