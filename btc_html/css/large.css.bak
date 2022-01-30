@@ -7,10 +7,10 @@
     .large-4 {width: 33.33%;}
 	
     img {
-        max-width: 1920px;
+        max-width: 1928px;
     }
 
-    .img-lrge-8 img {
+    .img-large-8 img {
         height: 66.666666%;
         width: 66.666666%;
     }

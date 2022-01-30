@@ -4,14 +4,24 @@
     .medium-6 {width: 50%;}
     .medium-4 {width: 33.33333%;}
     
-    img {
-        max-width: 768px;
-    }
+
 
     .img-medium-6 img {
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
     }
+	
+	.image-txt-container {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+	
+	.image-txt-container-medium {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
 
 
 
