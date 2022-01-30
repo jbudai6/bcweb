@@ -49,6 +49,11 @@ body h3 {
     width: 100%;
 }
 
+.img-small-remove{
+	display: none;
+	
+}
+
 .image-txt-container {
 	display: flex;
 	align-items: center;
@@ -78,6 +83,7 @@ header{
     background-size: cover;
 	color: #FFFFFF;
 }
+
 header h1{
 	font-size: 32px;
 }

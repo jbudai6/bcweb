@@ -5,6 +5,11 @@
     .medium-4 {width: 33.33333%;}
 	.column-img{flex:50%; padding: 0 4px}
 	
+	.img-small-remove{
+		display: flex;
+	
+	}
+	
 	.image-txt-container {
 		display: flex;
 		align-items: center;

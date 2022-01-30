@@ -40,14 +40,18 @@ body h3 {
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
 
-.reverse{
-  order: -1;
-}
+.grid { direction : rtl; }
+.grid-item { direction : ltr; }
 
 
 .img-small-12 img {
     height: 100%;
     width: 100%;
+}
+
+.img-small-remove{
+	display: remove;
+	
 }
 
 .image-txt-container {
@@ -79,6 +83,7 @@ header{
     background-size: cover;
 	color: #FFFFFF;
 }
+
 header h1{
 	font-size: 32px;
 }

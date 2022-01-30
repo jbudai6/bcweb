@@ -4,7 +4,11 @@
     .medium-6 {width: 50%;}
     .medium-4 {width: 33.33333%;}
 	.column-img{flex:50%; padding: 0 4px}
-	.grid { direction : ltr; }
+	
+	.img-small-remove{
+		display: none;
+	
+	}
 	
 	.image-txt-container {
 		display: flex;
