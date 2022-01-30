@@ -35,6 +35,7 @@ body h3 {
 }
 
 .column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+.column-right {float: right; padding: 0 2vw; margin: 0 0 .75rem 0;}
 
 .small-12 {width: 100%;}
 .small-9 {width: 75%;}

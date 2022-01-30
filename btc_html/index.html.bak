@@ -216,14 +216,14 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </div> <!-- end row -->	
 	
 	<div class="row limited">
-        <section class="column small-9 medium-6 large-3">
+    <section class="column-right">
             <h3>Traditionally, only investors with deep pockets could invest in private biotech companies on the cutting-edge of medical 
 			technology seeking to bring transformative cures to diseases with unmet medical needs.  Our platform leverages recently passed 
 			SEC regulations, opening up such investment opportunities and allowing any investor to purchase equity directly in early-stage 
 			biotech companies.</h3>
         </section>
+		
     </div> <!-- end row -->	
-	</div>
 	
 	
 	
@@ -233,7 +233,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	
 	
 	
-<div class="dark-background">
+<div class="row limited dark-background">
 	<div class="row limited">
         <section class="column small-12 medium-6 large-3">
             <h1>Get In Touch</h1>
