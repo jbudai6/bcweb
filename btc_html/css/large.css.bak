@@ -6,14 +6,7 @@
     .large-3 {width: 25%;}
     .large-4 {width: 33.33%;}
 	
-    img {
-        max-width: 1928px;
-    }
-
-    .img-large-8 img {
-        height: 66.666666%;
-        width: 66.666666%;
-    }
+	.column-img{flex:50%; padding: 0 4px}
     
     
     

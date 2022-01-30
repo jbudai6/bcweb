@@ -6,6 +6,8 @@
     .xlarge-3 {width: 25%;}
     .xlarge-4 {width: 33.33%;}
 	.xlarge-6 {width: 50%;}
+	
+	.column-img{flex:50%; padding: 0 4px}
     
     
     

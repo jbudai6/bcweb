@@ -3,6 +3,7 @@
      /* GRID */
     .medium-6 {width: 50%;}
     .medium-4 {width: 33.33333%;}
+	.column-img{flex:50%; padding: 0 4px}
 	
 	.image-txt-container {
 		display: flex;

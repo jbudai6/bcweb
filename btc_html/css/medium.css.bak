@@ -3,13 +3,8 @@
      /* GRID */
     .medium-6 {width: 50%;}
     .medium-4 {width: 33.33333%;}
-    
-
-
-    .img-medium-6 img {
-        height: 100%;
-        width: 100%;
-    }
+	.column-img{flex:50%; padding: 0 4px}
+	.grid { direction : ltr; }
 	
 	.image-txt-container {
 		display: flex;

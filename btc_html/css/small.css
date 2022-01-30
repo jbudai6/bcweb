@@ -40,9 +40,8 @@ body h3 {
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
 
-.right-align{
-	align-items: right;
-}
+.grid { direction : rtl; }
+.grid-item { direction : ltr; }
 
 
 .img-small-12 img {
@@ -54,6 +53,7 @@ body h3 {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
+	object-fit:contain;
 }
 
 	
