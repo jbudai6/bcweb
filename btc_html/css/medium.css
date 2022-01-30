@@ -16,12 +16,14 @@
 		flex-direction: row;
 	}
 	
+	.image-txt-container-medium:before,
 	.image-txt-container-medium {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
 	}
-
+	.image-txt-container-medium:after{
+    clear: both;}
 
 
 

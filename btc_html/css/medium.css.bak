@@ -6,7 +6,7 @@
 	.column-img{flex:50%; padding: 0 4px}
 	
 	.img-small-remove{
-		display: none;
+		display: flex;
 	
 	}
 	
@@ -16,6 +16,7 @@
 		flex-direction: row;
 	}
 	
+	.image-txt-container-medium:before,
 	.image-txt-container-medium {
 		display: flex;
 		align-items: center;
