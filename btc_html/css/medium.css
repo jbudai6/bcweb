@@ -3,7 +3,11 @@
      /* GRID */
     .medium-6 {width: 50%;}
     .medium-4 {width: 33.33333%;}
-	.column-img{flex:50%; padding: 0 4px}
+	
+	.column-medium-4{flex:33.33333%; padding: 0 4px}
+	.column-medium-6{flex:50%; padding: 0 4px}
+	.column-medium-8{flex:66.66666%; padding: 0 4px}
+	
 	
 	.img-small-remove{
 		display: flex;
@@ -28,6 +32,10 @@
 		line-height: 64px;
 		font-weight:700;
 	}
+	
+	nav button {display: none;}
+    nav ul {display: block;}
+    nav li {width: 25%; float: left;}
 
 
 } /* end of media query */

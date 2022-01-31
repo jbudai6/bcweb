@@ -63,7 +63,7 @@ body h3 {
 
 .image-txt-container {
 	display: flex;
-	align-items: baseine;
+	align-items: baseline;
 	flex-direction: row;
 }
 
@@ -154,6 +154,39 @@ footer ul {
      
 }
 footer li {padding-bottom: .3rem;}
+
+
+
+/* navigation rules */
+button#hamburgerBtn { 
+    background: none;
+    border:none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+nav ul{margin:0; padding: 0;}
+nav li {list-style-type: none; font-size:16px}
+
+nav a {
+    display: block;
+    padding: .8rem 0; 
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+nav li.active {background-color: rgba(0,0,0,0.5);}
+nav a:hover {background-color: rgba(0,0,0,0.2);}
+nav ul.open {display: block;}
+nav ul {display: none;}
+
+
+
+
+
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
