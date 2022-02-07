@@ -31,17 +31,52 @@ body h3 {
 /* GRID */
 .row {clear: both;}
 .limited {
+	max-width: 250px; 
     margin: auto;
 }
 
-.column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
-.column-right {float: right; padding: 0 2vw; margin: 0 0 .75rem 0;}
+.column {
+	float: left; 
+	padding: 0 2vw; 
+	margin: 0 0 .75rem 0;
+}
+.column-right {
+	float: right; 
+	padding: 0 2vw; 
+	margin: 0 0 .75rem 0;
+	}
 
+.center-align-small {text-align:center}
 .center-align {text-align:center}
+.center-align-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.left-align-img{
+	float: left;
+}
+
+.right-align-img{
+	float: right;
+}
+
+.right-align-img-small{
+	float: right;
+}
+
 
 .small-12 {width: 100%;}
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
+
+.column-small-12{flex:100%; padding: 0 4px}
+.column-small-9{flex:75%; padding: 0 4px}
+.column-small-8{flex:66.66666%; padding: 0 4px}
+.column-small-6{flex:50%; padding: 0 4px}
+.column-small-4{flex:33.33333%; padding: 0 4px}
 
 .grid { direction : rtl; }
 .grid-item { direction : ltr; }
@@ -52,23 +87,55 @@ body h3 {
     width: 100%;
 }
 
+.img-logo img {
+    
+}
+
+.img-social img {
+    height: 40px;
+    width: 40px;
+}
+
 .img-small-remove{
-	display: none;
-	
+	display: none;	
 }
 
 .image-pad{
 	padding-right:15px;
 }
 
+.image-container-logo-small {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.image-container-social-small {
+  display: flex;
+  justify-content: space-between;
+  height:150px;
+  padding-top: 70px;
+}
+
+.image-container-social-medium {
+	display: none;
+}
+
 .image-txt-container {
 	display: flex;
-	align-items: baseline;
+	align-items: center;
 	flex-direction: row;
 }
 
-	
 .image-txt-container-medium {
+
+}
+	
+.image-txt-container-nav {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 }
 
 
@@ -119,6 +186,7 @@ header{
     background-attachment: fixed;  
     background-size: cover;
 	color: #FFFFFF;
+	height:812px;
 }
 
 header h1{
@@ -167,7 +235,8 @@ button#hamburgerBtn {
     padding: 0 30px 0 2vw;
 }
 nav ul{margin:0; padding: 0;}
-nav li {list-style-type: none; font-size:16px}
+nav li {list-style-type: none; font-size:16px; line-height: 24px;
+	font-weight:400;}
 
 nav a {
     display: block;

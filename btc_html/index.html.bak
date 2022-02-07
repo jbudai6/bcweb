@@ -19,24 +19,26 @@
 <body>
     <header class="clearfix">
 	
-	<div class="row image-txt-container-medium">
-	
-	<div class="column-medium-8 column-large-4 small-12">
+	<div class="row image-txt-container-nav">
+
+	<div class="column-small-8 column-medium-4 column-large-4">
 	<img src="images/Colored logo.svg" alt="Biotech Collective Logo">
 	</div>
 	
-	<div class="column-medium-8 column-large-4 small-12">
+	<div class="column-small-4 column-medium-8 column-large-4">
+	<div class="right-align-img-small">
 	<nav class="clearfix">
         <div class="row">
         <button id="hamburgerBtn">&#9776;</button>
         <ul id="primaryNav">
-            <li class="active"><a href="#aboutUs"><h4>About Us</h4></a></li>
-            <li class="active"><a href="#whyInvest"><h4>Why Invest?</h4></a></li>
-            <li class="active"><a href="#whyFundraise"><h4>Why Fundraise?</h4></a></li>
-			<li class="active"><a href="#contactUs"><h4>Contact Us</h4></a></li>
+            <li class="active"><a href="#aboutUs">About Us</a></li>
+            <li class="active"><a href="#whyInvest">Why Invest?</a></li>
+            <li class="active"><a href="#whyFundraise">Why Fundraise?</a></li>
+			<li class="active"><a href="#contactUs">Contact Us</a></li>
         </ul>
         </div> <!-- end row -->
     </nav>
+	</div>
 	</div>
 	</div>
     
@@ -67,7 +69,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 <div class="row image-txt-container-medium">
 <div class="column-medium-6 column-large-8 column-xlarge-6 small-12">
 
-<div id="whyInvest" class="row">
+<div id="whyInvest" class="row center-align-small">
 <section><h1>Why Invest?</h1></section>
 </div>
 
@@ -132,7 +134,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </div> <!-- end row -->
 </div>
 
-<div class="column-medium-6 column-large-8 column-xlarge-6 img-small-12">
+<div class="img-small-12 column-medium-6 column-large-8 column-xlarge-6">
 <img src="images/Why_invest.png" alt="Why Invest">
 
 </div>
@@ -150,7 +152,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 
 <div class="column-medium-6 column-large-8 column-xlarge-6 grid-item">
 
-<div id="whyFundraise" class="row">
+<div id="whyFundraise" class="row center-align-small">
 <section><h1>Why Fundraise?</h1></section>
 </div>
 
@@ -209,7 +211,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	
 	
 	<div class="row">
-	<div id="aboutUs" class="row">
+	<div id="aboutUs" class="row center-align-small">
         <section class="column small-12 medium-6 large-3">
             <h2>About Us</h2>
         </section>
@@ -240,7 +242,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	
 	
 <div class="row dark-background">
-	<div id="contactUs" class="row">
+	<div id="contactUs" class="row center-align-small">
         <section class="column small-12 medium-6 large-3">
             <h2>Get In Touch</h2>
         </section>
@@ -259,11 +261,14 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
         <footer class="clearfix">
 		
 		<div class="row">
-		<section class="column small-12">
+		<div class="center-align-img">
+		<div class="image-container-logo-small">
 		<img src="images/Colored logo 2.svg" alt="Biotech Collective Logo">
-		</section>
+		</div>
+		</div>
 		</div><!-- end row -->
 		
+				
         <div class="row">
        
         <section class="column small-12 medium-6 large-3 center-align">
@@ -279,6 +284,24 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
             <h4>Why Fundraise?</h4>
         </section>
         </div> <!-- end row -->
+		
+		<div class="row">
+		<div class="center-align-img">
+		<div class="image-container-social-small">
+		<section class="img-social left-align-img">
+		<img src="images/Social Media icons/facebook.svg" alt="Facebook">
+		</section>
+		
+		<section class="img-social">
+		<img src="images/Social Media icons/twitter.svg" alt="Twitter">
+		</section>
+		
+		<section class="img-social right-align-img">
+		<img src="images/Social Media icons/instagram.svg" alt="Instagram">
+		</section>
+		</div>
+		</div>
+		</div><!-- end row -->
 		
 		<div class="row">
 		<section class="column small-12 center-align">
