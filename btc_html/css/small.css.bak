@@ -31,19 +31,21 @@ body h3 {
 /* GRID */
 .row {clear: both;}
 .limited {
-	max-width: 250px; 
+	max-width: 80vw; 
     margin: auto;
 }
 
 .column {
-	float: left; 
-	padding: 0 2vw; 
-	margin: 0 0 .75rem 0;
+	float: left;  
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin: 0 0 0 0;
 }
 .column-right {
 	float: right; 
-	padding: 0 2vw; 
-	margin: 0 0 .75rem 0;
+	padding-left: 5vw;
+	padding-right: 5vw; 
+	margin: 0 0 0 0;
 	}
 
 .center-align-small {text-align:center}
@@ -72,17 +74,17 @@ body h3 {
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
 
-.column-small-12{flex:100%; padding: 0 4px}
-.column-small-9{flex:75%; padding: 0 4px}
-.column-small-8{flex:66.66666%; padding: 0 4px}
-.column-small-6{flex:50%; padding: 0 4px}
-.column-small-4{flex:33.33333%; padding: 0 4px}
+.small-12-img{flex:100%;}
+.small-9-img{flex:75%;}
+.small-8-img{flex:66.66666%;}
+.small-6-img{flex:50%;}
+.small-4-img{flex:33.33333%;}
 
 .grid { direction : rtl; }
 .grid-item { direction : ltr; }
 
 
-.img-small-12 img {
+.img-resize img {
     height: 100%;
     width: 100%;
 }
@@ -100,42 +102,66 @@ body h3 {
 	display: none;	
 }
 
-.image-pad{
+.img-medium-remove{
+	display: flex;	
+}
+
+.img-pad{
 	padding-right:15px;
 }
 
-.image-container-logo-small {
+.img-container-logo-small {
   display: flex;
   justify-content: center;
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-top: 20vw;
+  padding-bottom: 15vw;
 }
 
-.image-container-social-small {
+.img-container-social-small {
   display: flex;
   justify-content: space-between;
-  height:150px;
-  padding-top: 70px;
+  height:40vw;
+  padding-top: 20vw;
 }
 
-.image-container-social-medium {
+.img-container-social-medium {
 	display: none;
 }
 
-.image-txt-container {
+.img-txt-container {
 	display: flex;
 	align-items: center;
+	justify-content: start;
 	flex-direction: row;
 }
 
-.image-txt-container-medium {
+.img-txt-container-medium {
+}
 
+.img-txt-container-header {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-left:8vw;
+	padding-right: 25vw;
+	padding-top: 30vw;
+	padding-bottom: 30vw;
 }
 	
-.image-txt-container-nav {
+.img-txt-container-nav {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	flex-direction: row;
+	padding-top:50px;
+}
+
+.container-geo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	padding-top:50px;
 }
 
 
@@ -167,13 +193,20 @@ main h3{
 	font-weight:700;
 }
 
+
 main h4{
+	font-size: 18px;
+	line-height: 43px;
+	font-weight:500;
+}
+
+main h5{
 	font-size: 16px;
 	line-height: 24px;
 	font-weight:400;
 }
 
-main h5{
+main h6{
 	font-size: 14px;
 	font-weight:400;
 }
@@ -225,6 +258,78 @@ footer li {padding-bottom: .3rem;}
 
 
 
+/* slider */
+.slidecontainer {
+	position: relative;
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: .4vw; /* Specified height */
+  background: #71CBAB; 
+  outline: none; /* Remove outline */
+  opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  background: #71CBAB;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  border: 0;
+  width: 16px;
+  height: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  background: #71CBAB;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.bubble {
+  background: none;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight:400;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+.bubble::after {
+  content: "$";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: none;
+  bottom: 20px;
+  left: 50%;
+}
+
+
+
 /* navigation rules */
 button#hamburgerBtn { 
     background: none;
@@ -232,7 +337,6 @@ button#hamburgerBtn {
     color: #fff;
     font-size: 2.4rem;
     cursor: pointer;
-    padding: 0 30px 0 2vw;
 }
 nav ul{margin:0; padding: 0;}
 nav li {list-style-type: none; font-size:16px; line-height: 24px;
@@ -245,8 +349,8 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
-nav li.active {background-color: rgba(0,0,0,0.5);}
-nav a:hover {background-color: rgba(0,0,0,0.2);}
+nav li.active {background-color: rgba(11,54,81,1);}
+nav a:hover {background-color: rgba(255,255,255,0.1);}
 nav ul.open {display: block;}
 nav ul {display: none;}
 
