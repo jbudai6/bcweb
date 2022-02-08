@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {/* TODO: CHANGE BACK TO 768 */
+@media only screen and (min-width: 768px) {/* 768 */
     
      /* GRID */
     .medium-6 {width: 50%;}
@@ -20,6 +20,18 @@
 	
 	.right-align-img-small{
 		float:none;
+	}
+	
+	.img-txt-container-header {
+		display: flex;
+		align-items: center;
+		justify-content:center;
+		flex-direction: row;
+		padding-left:0;
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		height:80vh;
 	}
 	
 	.img-container-social-small{

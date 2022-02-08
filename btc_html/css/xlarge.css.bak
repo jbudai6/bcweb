@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {/* TODO: CHANGE BACK TO 1928 */
+@media only screen and (min-width: 1928px) {/* TODO: CHANGE BACK TO 1928 */
     
     
    /* GRID */
@@ -7,7 +7,7 @@
     .xlarge-4 {width: 33.33%;}
 	.xlarge-6 {width: 50%;}
 	
-	.xlarge-6-img{flex:50%; padding: 0 4px}
+	.xlarge-6-img{flex:50%}
     
    
 	

@@ -41,22 +41,20 @@
 	</div><!-- end row -->
     
 
+<div class="img-txt-container-header light-background">
 <div class="row">
-<div class="img-txt-container-header">
-<div class="medium-6-img large-8-img xlarge-6-img">
-	<div class="row">
-       
-        <section class="column small-12 medium-6 large-4">
-            <h1>Anyone should be able to invest in biotech.  Every life-changing idea deserves funding.
+    <section class="column small-12 medium-6 large-4 xlarge-6">
+        <h1>Anyone should be able to invest in biotech.  Every life-changing idea deserves funding.
 Own a stake in early-stage biotech companies, pre-IPO.</h1>
-        </section>
-    </div> <!-- end row -->
+    </section>
+
+	<section class="column medium-6 large-8 xlarge-6 img-small-remove">
+		<div class="img-resize medium-6-img large-8-img xlarge-6-img img-small-remove">
+			<img src="images/Header_image_2.png" alt="Header">
+		</div>
+	</section>
 </div>
-<div class="medium-6-img large-8-img xlarge-6-img img-resize img-small-remove">
-<img src="images/Header_image_2.png" alt="Header">
-</div>
-</div>
-</div>
+</div><!-- end row -->
 
     </header>
     
@@ -255,23 +253,21 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 
 
 	<div class="row">
-	<section class="column small-6 img-medium-remove">
+	<section class="column center-align-small small-6 img-medium-remove">
 		<h4>For Investors</h4>
     </section>
 	
-	<section class="column small-6 img-medium-remove">
+	<section class="column center-align-small small-6 img-medium-remove">
 		<h4>For Businesses</h4>
     </section>
 	</div><!-- end row -->	
 	
-	
-	
-	
-	<div class="row">
-	<section class="column small-12 img-medium-remove">
-        <h5>How much do you want to invest?</h5>
-    </section>
-	</div><!-- end row -->	
+
+	<div class="row center-align-small">
+        <section class="column small-12 img-medium-remove">
+            <h5>How much do you want to invest?</h5>
+        </section>		
+    </div> <!-- end row -->	
 	
 	<!--<div class="row">
 	<section class="container-geo small-12-img img-medium-remove">
@@ -287,8 +283,8 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	<section class="column medium-6 large-3 img-small-remove">
 		<h4>For Investors</h4>
     </section>
-	
-	<section class="column medium-6 large-9 img-small-remove">
+
+	<section class="column small-12 medium-6 large-9 img-small-remove">
         <h5>How much do you want to invest?</h5>
     </section>
 	</div><!-- end row -->	
@@ -299,8 +295,8 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </section>
 	<section class="container-geo small-12-img medium-6-img large-9-img">
 		<div class="slidecontainer">
-			<div id="demo2" class="bubble"></div>
-			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange2">
+			<div id="demo" class="bubble"></div>
+			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange">
 		</div>
     </section>
 	</div><!-- end row -->	

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {/* TODO: CHANGE BACK TO 1920 */
+@media only screen and (min-width: 1024px) {/* 1920 */
     
     
    /* GRID */
@@ -6,8 +6,8 @@
     .large-3 {width: 25%;}
     .large-4 {width: 33.33%;}
 	
-	.large-4-img{flex:33.33333%; padding: 0 4px}
-	.large-8-img{flex:66.66666%; padding: 0 4px}
+	.large-4-img{flex:33.33333%}
+	.large-8-img{flex:66.66666%}
 	
     
     header h1{

@@ -70,6 +70,8 @@ body h3 {
 }
 
 
+
+
 .small-12 {width: 100%;}
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
@@ -87,6 +89,7 @@ body h3 {
 .img-resize img {
     height: 100%;
     width: 100%;
+	vertical-align: bottom;
 }
 
 .img-logo img {
@@ -103,7 +106,7 @@ body h3 {
 }
 
 .img-medium-remove{
-	display: flex;	
+	
 }
 
 .img-pad{
@@ -138,14 +141,18 @@ body h3 {
 .img-txt-container-medium {
 }
 
+
 .img-txt-container-header {
 	display: flex;
 	align-items: center;
+	align-self: center;
+	justify-content:center;
+	align-content:center;
 	flex-direction: row;
 	padding-left:8vw;
 	padding-right: 25vw;
-	padding-top: 30vw;
-	padding-bottom: 30vw;
+	padding-bottom: 150px;
+	height: 100%;
 }
 	
 .img-txt-container-nav {
@@ -154,6 +161,7 @@ body h3 {
 	justify-content: space-between;
 	flex-direction: row;
 	padding-top:50px;
+	height:150px;
 }
 
 .container-geo {
@@ -162,6 +170,7 @@ body h3 {
 	justify-content: center;
 	flex-direction: row;
 	padding-top:50px;
+	padding-bottom:50px;
 }
 
 
@@ -171,6 +180,15 @@ body h3 {
     background-size: cover;
     background-color: #0B3651;
     color: #FFFFFF;
+    height: 100%;
+	overflow: auto;
+}
+
+.light-background {
+	background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    color: #000000;
     height: 100%;
 	overflow: auto;
 }
@@ -219,7 +237,7 @@ header{
     background-attachment: fixed;  
     background-size: cover;
 	color: #FFFFFF;
-	height:812px;
+	height:100vh;
 }
 
 header h1{
@@ -269,7 +287,7 @@ footer li {padding-bottom: .3rem;}
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: .4vw; /* Specified height */
+  height: 1.5px; /* Specified height */
   background: #71CBAB; 
   outline: none; /* Remove outline */
   opacity: 1; /* Set transparency (for mouse-over effects on hover) */
