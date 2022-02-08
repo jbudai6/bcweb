@@ -396,7 +396,7 @@ server called "action_page.php".</p>-->
     <script>
 		var slider = document.getElementById("myRange");
 		var output = document.getElementById("demo");
-		output.innerHTML = slider.value;
+		output.innerHTML = Number(slider.value).toLocaleString();
 
 
 		slider.oninput = function() {
@@ -404,7 +404,8 @@ server called "action_page.php".</p>-->
 		  const min = slider.min;
 		  const max = slider.max;
 		  const newVal = Number(((val - min) * 100) / (max - min));
-		  output.innerHTML = this.value;
+		  
+		  output.innerHTML = Number(this.value).toLocaleString(); //this.value;
 		  
 		  output.style.left = `calc(${newVal}%)`;
 		}
