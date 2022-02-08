@@ -260,8 +260,8 @@ footer li {padding-bottom: .3rem;}
 
 /* slider */
 .slidecontainer {
-	position: relative;
-  width: 100%; /* Width of the outside container */
+  position: relative;
+  width: 80%; /* Width of the outside container */
 }
 
 /* The slider itself */
@@ -319,7 +319,7 @@ footer li {padding-bottom: .3rem;}
   transform: translateX(-50%);
 }
 .bubble::after {
-  content: "$";
+  content: "";
   position: absolute;
   width: 10px;
   height: 10px;
@@ -328,6 +328,9 @@ footer li {padding-bottom: .3rem;}
   left: 50%;
 }
 
+.bubble::before {
+  content:"$";
+}
 
 
 /* navigation rules */

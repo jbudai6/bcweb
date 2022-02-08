@@ -260,8 +260,8 @@ footer li {padding-bottom: .3rem;}
 
 /* slider */
 .slidecontainer {
-	position: relative;
-  width: 100%; /* Width of the outside container */
+  position: relative;
+  width: 80%; /* Width of the outside container */
 }
 
 /* The slider itself */
@@ -269,7 +269,7 @@ footer li {padding-bottom: .3rem;}
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: .4vw; /* Specified height */
+  height: 1.5px; /* Specified height */
   background: #71CBAB; 
   outline: none; /* Remove outline */
   opacity: 1; /* Set transparency (for mouse-over effects on hover) */

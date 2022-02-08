@@ -273,7 +273,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </section>
 	</div><!-- end row -->	
 	
-	<div class="row limited">
+	<!--<div class="row">
 	<section class="container-geo small-12-img img-medium-remove">
 		<div class="slidecontainer">
 			<div id="demo" class="bubble"></div>
@@ -288,7 +288,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 		<h4>For Investors</h4>
     </section>
 	
-	<section class="column medium-6 large-3 img-small-remove">
+	<section class="column medium-6 large-9 img-small-remove">
         <h5>How much do you want to invest?</h5>
     </section>
 	</div><!-- end row -->	
@@ -297,14 +297,11 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	<section class="column medium-6 large-3 img-small-remove">
         <h4>For Businesses</h4>
     </section>
-	<section class="column medium-6 large-3 img-small-remove">
-		<div class="row">
-			<h6>$10000<h6>
+	<section class="container-geo small-12-img medium-6-img large-9-img">
+		<div class="slidecontainer">
+			<div id="demo" class="bubble"></div>
+			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange">
 		</div>
-		
-		<div class="row">
-			<hr>
-		</div>		
     </section>
 	</div><!-- end row -->	
 
@@ -394,8 +391,9 @@ server called "action_page.php".</p>-->
     
 	<script src="js/menuToggle.js"></script> 
     <script>
-		var slider = document.getElementById("myRange");
+		var slider = document.getElementById("myRange");	
 		var output = document.getElementById("demo");
+		
 		output.innerHTML = Number(slider.value).toLocaleString();
 
 
@@ -409,6 +407,11 @@ server called "action_page.php".</p>-->
 		  
 		  output.style.left = `calc(${newVal}%)`;
 		}
+		
+		
+		
+		
+		
 	</script>
 	
 </body>
