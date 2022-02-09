@@ -47,6 +47,27 @@ body h3 {
 	padding-right: 5vw; 
 	margin: 0 0 0 0;
 	}
+	
+.column-no-pad {
+	float: left;  
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
+	
+.column-no-left-pad {
+	float: left;  
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin: 0 0 0 0;
+}
+	
+.column-no-right-pad {
+	float: left;  
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin: 0 0 0 0;
+}
 
 .center-align-small {text-align:center}
 .center-align {text-align:center}
@@ -109,6 +130,10 @@ body h3 {
 	
 }
 
+.img-large-remove{
+	display: none;	
+}
+
 .img-pad{
 	padding-right:15px;
 }
@@ -137,6 +162,7 @@ body h3 {
 	justify-content: start;
 	flex-direction: row;
 }
+
 
 .img-txt-container-medium {
 }
@@ -167,7 +193,7 @@ body h3 {
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	padding-top:50px;
+	padding-top:25px;
 	padding-bottom:50px;
 }
 
@@ -225,6 +251,10 @@ main h5{
 main h6{
 	font-size: 14px;
 	font-weight:400;
+}
+
+.h5-alt{
+	line-height: 43px;
 }
 
 header{

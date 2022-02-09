@@ -1,15 +1,33 @@
-@media only screen and (min-width: 1024px) {/* 1920 */
+@media only screen and (min-width: 1020px) {/* 1920 */
     
     
    /* GRID */
-    .large-2 {width: 16.66%;}
+    .large-1 {width: 8%;}
+	.large-2 {width: 16.66%;}
     .large-3 {width: 25%;}
     .large-4 {width: 33.33%;}
+	
 	
 	.large-4-img{flex:33.33333%}
 	.large-8-img{flex:66.66666%}
 	
     
+	.img-large-remove{
+		display: flex;	
+	}
+	
+	.img-medium-large-remove{
+		display: none;	
+	}
+	
+	.column-no-pad {
+		float: left;  
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 0 0 0;
+	}
+	
+	
     header h1{
 		font-size: 36px;
 		line-height: 54px;
