@@ -19,8 +19,8 @@
 <body>
     <header class="clearfix">
 	
-	<div class="row img-txt-container-nav">
-
+	<div class="row">
+	<div class="img-txt-container-nav">
 	<div class="column small-8-img medium-4-img">
 	<img src="images/Colored logo.svg" alt="Biotech Collective Logo">
 	</div>
@@ -38,18 +38,20 @@
         </div>
     </nav>
 	</div>
+	</div>
 	</div><!-- end row -->
     
 
-<div class="img-txt-container-header">
+<div class="img-txt-container-header dark-background">
 <div class="row">
     <section class="column small-12 medium-6 large-4 xlarge-6">
         <h1>Anyone should be able to invest in biotech.  Every life-changing idea deserves funding.
 Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </section>
 
-	<section class="column medium-6 large-8 xlarge-6 img-small-remove">
-		<div class="img-resize medium-6-img large-8-img xlarge-6-img img-small-remove cropped">
+	<!--<section class="column medium-6 large-8 xlarge-6 img-small-remove">-->
+	<section class="img-small-remove">
+		<div class="img-resize medium-6-img large-8-img xlarge-6-img img-small-remove">
 			<img src="images/Header_image_2.png" alt="Header">
 		</div>
 	</section>
@@ -63,8 +65,8 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     <main> 	
 	
 
-
-<div class="row img-txt-container-medium">
+<div class="row">
+<div class="img-txt-container-medium">
 <div class="medium-6-img large-8-img xlarge-6-img small-12">
 
 <div id="whyInvest" class="row center-align-small">
@@ -137,6 +139,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 <div class="img-resize medium-6-img large-8-img xlarge-6-img ">
 <img src="images/Why_invest.png" alt="Why Invest">
 
+</div>
 </div>
 </div>
 

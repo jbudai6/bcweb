@@ -27,6 +27,18 @@
 		margin: 0 0 0 0;
 	}
 	
+	.img-txt-container-header {
+		display: flex;
+		align-items: center;
+		justify-content:center;
+		flex-direction: row;
+		padding-left:0;
+		padding-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		height:60vh;
+	}
+	
 	header{
 		font-size: 24px;
 		font-weight: 700;

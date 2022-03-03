@@ -90,6 +90,7 @@
 		padding-top: 0;
 		padding-bottom: 0;
 		margin: 0 0 0 0;
+		height: 130vh;
 	}
 	
 	.container-geo {
@@ -111,7 +112,7 @@
 		background-attachment: fixed;  
 		background-size: cover;
 		color: #FFFFFF;
-		height:840px;
+		height:100vh;
 	}
 
 
