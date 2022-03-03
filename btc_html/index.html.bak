@@ -64,7 +64,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     <main> 	
 	
 <div class="row img-txt-container-medium">
-<div class="medium-6-img large-8-img xlarge-6-img small-12">
+<div class="medium-6-img large-4-img xlarge-6-img small-12">
 
 <div id="whyInvest" class="row center-align-small">
 <section class="column small-12">
@@ -133,8 +133,8 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </div> <!-- end row -->
 </div>
 
-<div class="img-resize medium-6-img large-8-img xlarge-6-img ">
-<img src="images/Why_invest.png" alt="Why Invest">
+<div class="medium-6 large-8 xlarge-6 why-invest"><!--"img-resize medium-6-img"> <!-- large-8-img xlarge-6-img ">-->
+<!--<img src="images/Why_invest.png" alt="Why Invest">-->
 
 </div>
 </div>
@@ -242,7 +242,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 	
 	
 	
-<div class="row dark-background container-padded">
+<div class="row dark-background">
 	<div id="contactUs" class="row center-align-small">
         <section class="column small-12 medium-6 large-3">
             <h2>Get In Touch</h2>

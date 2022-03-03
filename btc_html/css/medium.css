@@ -9,9 +9,17 @@
 	.medium-3 {width: 25%;}
 	
 	.medium-4-img{flex:33.33333%}
-	.medium-6-img{flex:50%}
+	.medium-6-img{flex:100%}
 	.medium-8-img{flex:66.66666%}
 	.medium-9-img{flex:75%; }
+	
+	.why-invest {
+		background-image: url('../images/Why_invest.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		height:100vh;
+	}
 	
 	.img-resize img {
     width: 100%;
