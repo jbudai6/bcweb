@@ -13,6 +13,11 @@
 	.medium-8-img{flex:66.66666%}
 	.medium-9-img{flex:75%; }
 	
+	.img-resize img {
+    width: 100%;
+	vertical-align: bottom;
+}
+	
 	.center-align-small {text-align: left}
 	
 	.column-no-left-pad {
@@ -86,10 +91,9 @@
 		flex-direction: row;
 		padding-left:0;
 		padding-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
 		margin: 0 0 0 0;
-		height: 130vh;
 	}
 	
 	.container-geo {
