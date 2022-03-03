@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1020px) {/* 1920 */
+@media only screen and (min-width: 1920px) {/* 1920 */
     
     
    /* GRID */
@@ -25,6 +25,17 @@
 		padding-left: 0;
 		padding-right: 0;
 		margin: 0 0 0 0;
+	}
+	
+	header{
+		font-size: 24px;
+		font-weight: 700;
+		background-image: url('../images/Header_background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		color: #FFFFFF;
+		height:100vh;
 	}
 	
 	

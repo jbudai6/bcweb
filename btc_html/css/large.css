@@ -27,6 +27,17 @@
 		margin: 0 0 0 0;
 	}
 	
+	header{
+		font-size: 24px;
+		font-weight: 700;
+		background-image: url('../images/Header_background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		color: #FFFFFF;
+		height:60vh;
+	}
+	
 	
     header h1{
 		font-size: 36px;

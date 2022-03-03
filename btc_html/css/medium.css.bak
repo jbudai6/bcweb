@@ -8,12 +8,37 @@
     .medium-4 {width: 33.33333%;}
 	.medium-3 {width: 25%;}
 	
-	.medium-4-img{flex:33.33333%}
-	.medium-6-img{flex:50%}
-	.medium-8-img{flex:66.66666%}
-	.medium-9-img{flex:75%; }
+	.medium-4-img{flex:33.33333%;}
+	.medium-6-img{flex:50%;}
+	.medium-8-img{flex:66.66666%;}
+	.medium-9-img{flex:75%;}
 	
-	.center-align-small {text-align: left}
+	.cropped{
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		overflow: hidden;
+	}
+	
+	.cropped img{
+		margin: -10px 0px 0px -180px;
+	}
+	
+	.center-align-small {text-align: left;}
+	
+	.column-no-left-pad {
+	float: left;  
+	padding-left: 0;
+	padding-right: 5vw;
+	margin: 0 0 0 0;
+}
+	
+.column-no-right-pad {
+	float: left;  
+	padding-left: 5vw;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
 	
 	.img-small-remove{
 		display: flex;
@@ -32,10 +57,9 @@
 		align-items: center;
 		justify-content:center;
 		flex-direction: row;
-		padding-left:0;
-		padding-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-left:8vw;
+		padding-right: 25vw;
+		padding-bottom: 30vh;
 		height:80vh;
 	}
 	
@@ -76,6 +100,7 @@
 		padding-top: 0;
 		padding-bottom: 0;
 		margin: 0 0 0 0;
+		height: 140vh;
 	}
 	
 	.container-geo {
@@ -97,7 +122,7 @@
 		background-attachment: fixed;  
 		background-size: cover;
 		color: #FFFFFF;
-		height:840px;
+		height:100vh;
 	}
 
 

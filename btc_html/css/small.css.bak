@@ -57,7 +57,7 @@ body h3 {
 	
 .column-no-left-pad {
 	float: left;  
-	padding-left: 0;
+	padding-left: 5vw;
 	padding-right: 5vw;
 	margin: 0 0 0 0;
 }
@@ -65,7 +65,7 @@ body h3 {
 .column-no-right-pad {
 	float: left;  
 	padding-left: 5vw;
-	padding-right: 0;
+	padding-right: 5vw;
 	margin: 0 0 0 0;
 }
 
@@ -108,9 +108,9 @@ body h3 {
 
 
 .img-resize img {
-    height: 100%;
     width: 100%;
 	vertical-align: bottom;
+	position: relative;
 }
 
 .img-logo img {
@@ -175,17 +175,8 @@ body h3 {
 	flex-direction: row;
 	padding-left:8vw;
 	padding-right: 25vw;
-	padding-bottom: 150px;
-	height: 100%;
-}
-	
-.img-txt-container-nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: row;
-	padding-top:50px;
-	height:150px;
+	padding-bottom: 30vh;
+	height: 100vh;
 }
 
 .container-geo {
@@ -266,6 +257,7 @@ header{
     background-size: cover;
 	color: #FFFFFF;
 	height:100vh;
+	margin: -10px 0px 0px -180px;
 }
 
 header h1{

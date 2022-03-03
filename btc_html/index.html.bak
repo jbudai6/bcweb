@@ -49,7 +49,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </section>
 
 	<section class="column medium-6 large-8 xlarge-6 img-small-remove">
-		<div class="img-resize medium-6-img large-8-img xlarge-6-img img-small-remove">
+		<div class="img-resize medium-6-img large-8-img xlarge-6-img img-small-remove cropped">
 			<img src="images/Header_image_2.png" alt="Header">
 		</div>
 	</section>
@@ -134,7 +134,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
     </div> <!-- end row -->
 </div>
 
-<div class="img-resize medium-6-img large-8-img xlarge-6-img">
+<div class="img-resize medium-6-img large-8-img xlarge-6-img ">
 <img src="images/Why_invest.png" alt="Why Invest">
 
 </div>
@@ -307,7 +307,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 
 	
 	<div class="row">
-	<section class="column small-12 medium-9">
+	<section class="column-right small-12 medium-9">
         <form action="/action_page.php">
 			<label for="fname"><h6>Email Address</h6></label>
 			<input type="text" id="fname" name="fname"><br><br>
