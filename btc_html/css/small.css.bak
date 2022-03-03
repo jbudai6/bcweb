@@ -175,7 +175,6 @@ body h3 {
 	flex-direction: row;
 	padding-left:8vw;
 	padding-right: 25vw;
-	padding-bottom: 0;
 	height: 80vh;
 }
 	

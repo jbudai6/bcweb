@@ -13,6 +13,11 @@
 	.medium-8-img{flex:66.66666%}
 	.medium-9-img{flex:75%; }
 	
+	.img-resize img {
+    width: 100%;
+	vertical-align: bottom;
+}
+	
 	.center-align-small {text-align: left}
 	
 	.column-no-left-pad {
@@ -46,11 +51,10 @@
 		align-items: center;
 		justify-content:center;
 		flex-direction: row;
-		padding-left:0;
-		padding-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-left:5vw;
+		padding-right: 5vw;
 		height:80vh;
+		background-color: #0B3651;
 	}
 	
 	.img-social img {

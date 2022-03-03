@@ -46,11 +46,10 @@
 		align-items: center;
 		justify-content:center;
 		flex-direction: row;
-		padding-left:0;
-		padding-right: 0;
-		padding-top: 0;
-		padding-bottom: 0;
-		height:100vh;
+		padding-left:5vw;
+		padding-right: 5vw;
+		height:80vh;
+		background-color: #0B3651;
 	}
 	
 	.img-social img {
