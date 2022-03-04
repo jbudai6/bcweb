@@ -160,6 +160,7 @@ body h3 {
 	align-items: center;
 	justify-content: start;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 
@@ -209,7 +210,7 @@ body h3 {
 	background-attachment: fixed;
     background-size: cover;
     background-color: #FFFFFF;
-    color: #000000;
+    color: #4F4F4F;
     height: 100%;
 	overflow: auto;
 }
@@ -222,6 +223,20 @@ body h3 {
 	}
 	
 	.why-fund-med {
+		background-image: url('../images/Why_fundraise.png');
+		background-repeat: no-repeat; 
+		background-size: cover;
+		height:100vh;
+	}
+	
+	.why-invest-small {
+		background-image: url('../images/Why_invest.png');
+		background-repeat: no-repeat; 
+		background-size: cover;
+		height:100vh;
+	}
+	
+	.why-fund-small {
 		background-image: url('../images/Why_fundraise.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
