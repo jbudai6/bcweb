@@ -68,7 +68,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 <div class="row">
 <div class="img-txt-container-medium">
 <!--<div class="medium-6-img large-4-img xlarge-6-img small-12">-->
-<div class="small-12 medium-6 large-4 xlarge-6">
+<div class="column small-12 medium-6 large-4 xlarge-6">
 
 <div id="whyInvest" class="row center-align-small">
 <section class="column small-12">
@@ -77,7 +77,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 </div>
 
 <div class="grid-container">     
-        <section class="column-no-right-pad small-12 medium-12 large-4">
+        <section class="column-no-right-pad small-12 medium-6 large-2">
 			<div class="img-txt-container">
 			<img class="img-pad" src="images/Why Invest icons/jam_dna.svg" alt="Jam DNA">
 					<h5 class="top-align">
@@ -86,7 +86,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 			</div>
 		</section>
 		
-		<section class="column-no-right-pad small-12 medium-12 large-4">
+		<section class="column-no-right-pad small-12 medium-6 large-2">
 		<div class="img-txt-container">
 				<img class="img-pad" src="images/Why Invest icons/local_hospital.svg" alt="Hospital">
 					<h5>
@@ -96,7 +96,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
         </section>
 
 	   
-        <section class="column-no-right-pad small-12 medium-12 large-4">
+        <section class="column-no-right-pad small-12 medium-6 large-2">
 			<div class="img-txt-container">
 			<img class="img-pad" src="images/Why Invest icons/forum.svg" alt="Forum">
 					<h5>
@@ -105,7 +105,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 			</div>
 		</section>
 		
-		<section class="column-no-right-pad small-12 medium-12 large-4">
+		<section class="column-no-right-pad small-12 medium-6 large-2">
 		<div class="img-txt-container">
 				<img class="img-pad" src="images/Why Invest icons/work.svg" alt="Work">
 					<h5>
@@ -114,7 +114,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 		</div>
         </section>	
 	   
-        <section class="column-no-right-pad small-12 medium-12 large-4">
+        <section class="column-no-right-pad small-12 medium-6 large-2">
 			<div class="img-txt-container">
 			<img class="img-pad" src="images/Why Invest icons/carbon_information-filled.svg" alt="Information">
 					<h5>
@@ -123,7 +123,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 			</div>
 		</section>
 		
-		<section class="column-no-right-pad small-12 medium-12 large-4">
+		<section class="column-no-right-pad small-12 medium-6 large-2">
 		<div class="img-txt-container">
 				<img class="img-pad" src="images/Why Invest icons/check_box.svg" alt="Check box">
 					<h5>Commission-free investing and only $100 to get started</h5>
@@ -141,8 +141,7 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 
 
 
-<div class="dark-background">
-<div class="row ">
+<div class="row dark-background">
 <div class="img-txt-container-medium grid">
 
 <div class="medium-6 large-8 xlarge-6 grid-item">
@@ -190,7 +189,6 @@ Own a stake in early-stage biotech companies, pre-IPO.</h1>
 
 <div class="small-12 medium-6 large-8 xlarge-6 why-fund-med"/>
 
-</div>
 </div>
 </div>
 

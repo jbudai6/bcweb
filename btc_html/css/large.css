@@ -39,6 +39,14 @@
 		height:60vh;
 	}
 	
+	.img-txt-container {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	flex-direction: row;
+	height: 25vh;
+}
+	
 	header{
 		font-size: 24px;
 		font-weight: 700;

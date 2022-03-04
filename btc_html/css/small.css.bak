@@ -155,12 +155,15 @@ body h3 {
 	display: none;
 }
 
+.grid-container{
+	flex-wrap: wrap;
+}
+
 .img-txt-container {
 	display: flex;
 	align-items: center;
 	justify-content: start;
 	flex-direction: row;
-	flex-wrap: wrap;
 }
 
 

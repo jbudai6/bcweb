@@ -222,14 +222,14 @@ body h3 {
 		background-image: url('../images/Why_invest.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:0;
 	}
 	
 	.why-fund-med {
 		background-image: url('../images/Why_fundraise.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:0;
 	}
 	
 	.why-invest-small {
