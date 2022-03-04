@@ -26,6 +26,7 @@
 		background-size: cover;
 		height:100vh;
 	}
+
 	
 	.img-resize img {
     width: 100%;
@@ -48,6 +49,7 @@
 	margin: 0 0 0 0;
 }
 	
+
 	.img-small-remove{
 		display: flex;
 	}

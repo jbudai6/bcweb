@@ -14,27 +14,19 @@
 	.medium-9-img{flex:75%; }
 	
 	.why-invest-med {
-		display: none;
-	}
-	
-	.why-fund-med {
-		display: none;
-		background-image:none;
-	}
-	
-	.why-invest-small {
 		background-image: url('../images/Why_invest.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
 		height:100vh;
 	}
 	
-	.why-fund-small {
+	.why-fund-med {
 		background-image: url('../images/Why_fundraise.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
 		height:100vh;
 	}
+
 	
 	.img-resize img {
     width: 100%;
@@ -55,6 +47,14 @@
 	padding-left: 5vw;
 	padding-right: 0;
 	margin: 0 0 0 0;
+}
+	
+	.img-txt-container {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	flex-direction: row;
+	width: 50vw;
 }
 	
 	.img-small-remove{

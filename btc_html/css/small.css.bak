@@ -57,7 +57,7 @@ body h3 {
 	
 .column-no-left-pad {
 	float: left;  
-	padding-left: 5vw;
+	padding-left: 0;
 	padding-right: 5vw;
 	margin: 0 0 0 0;
 }
@@ -65,7 +65,7 @@ body h3 {
 .column-no-right-pad {
 	float: left;  
 	padding-left: 5vw;
-	padding-right: 5vw;
+	padding-right: 0;
 	margin: 0 0 0 0;
 }
 
@@ -135,6 +135,7 @@ body h3 {
 
 .img-pad{
 	padding-right:15px;
+	padding-left:15px;
 }
 
 .img-container-logo-small {
@@ -183,7 +184,7 @@ body h3 {
 	
 .img-txt-container-nav {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: row;
 	padding-top:8vh;
@@ -222,14 +223,14 @@ body h3 {
 		background-image: url('../images/Why_invest.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:0;
 	}
 	
 	.why-fund-med {
 		background-image: url('../images/Why_fundraise.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:0;
 	}
 	
 	.why-invest-small {

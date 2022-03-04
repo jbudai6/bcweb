@@ -55,19 +55,7 @@ body h3 {
 	margin: 0 0 0 0;
 }
 	
-.column-no-left-pad {
-	float: left;  
-	padding-left: 5vw;
-	padding-right: 5vw;
-	margin: 0 0 0 0;
-}
-	
-.column-no-right-pad {
-	float: left;  
-	padding-left: 5vw;
-	padding-right: 5vw;
-	margin: 0 0 0 0;
-}
+
 
 .center-align-small {text-align:center}
 .center-align {text-align:center}
@@ -135,6 +123,7 @@ body h3 {
 
 .img-pad{
 	padding-right:15px;
+	padding-left:15px;
 }
 
 .img-container-logo-small {
@@ -183,7 +172,7 @@ body h3 {
 	
 .img-txt-container-nav {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: row;
 	padding-top:8vh;
