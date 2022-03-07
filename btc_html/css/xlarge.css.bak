@@ -1,7 +1,8 @@
-@media only screen and (min-width: 1928px) {/* TODO: CHANGE BACK TO 1928 */
+@media only screen and (min-width: 1920px) {/* 1928 */
     
     
    /* GRID */
+	.xlarge-0 {width: 0%}
     .xlarge-2 {width: 16.66%;}
     .xlarge-3 {width: 25%;}
     .xlarge-4 {width: 33.33%;}
@@ -9,6 +10,40 @@
 	
 	.xlarge-6-img{flex:50%}
     
-   
+   	header{
+		font-size: 24px;
+		font-weight: 700;
+		background-image: url('../images/Header_background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;  
+		background-size: cover;
+		color: #FFFFFF;
+		height:60vh;
+	}
+	
+	
+    header h1{
+		font-size: 36px;
+		line-height: 54px;
+		font-weight:700;
+	}
+
+	main h1{
+		font-size: 64px;
+		line-height: 76px;
+		font-weight:700;
+	}
+	
+	main h2{
+		font-size: 48px;
+		line-height: 64px;
+		font-weight:700;
+	}
+	
+	main h3{
+		font-size: 24px;
+		line-height: 32px;
+		font-weight:700;
+}
 	
 } /* end of media query */

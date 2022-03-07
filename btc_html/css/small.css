@@ -83,7 +83,7 @@ body h3 {
 .small-12 {width: 100%;}
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
-.small-0 {display:none}
+.small-0 {width: 0%}
 
 .small-12-img{flex:100%;}
 .small-9-img{flex:75%;}
@@ -234,6 +234,7 @@ body h3 {
 		background-size: cover;
 		height:100vh;
 	}
+	
 
 main h1{
 	font-size: 36px;
@@ -288,7 +289,7 @@ header{
 
 header h1{
 	font-size: 24px;
-	line-height: 36 px;
+	line-height: 36px;
 }
 header h2{
     font-style: bold

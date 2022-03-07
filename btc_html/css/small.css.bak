@@ -55,19 +55,7 @@ body h3 {
 	margin: 0 0 0 0;
 }
 	
-.column-no-left-pad {
-	float: left;  
-	padding-left: 0;
-	padding-right: 5vw;
-	margin: 0 0 0 0;
-}
-	
-.column-no-right-pad {
-	float: left;  
-	padding-left: 5vw;
-	padding-right: 0;
-	margin: 0 0 0 0;
-}
+
 
 .center-align-small {text-align:center}
 .center-align {text-align:center}
@@ -95,7 +83,7 @@ body h3 {
 .small-12 {width: 100%;}
 .small-9 {width: 75%;}
 .small-6 {width: 50%;}
-.small-0 {display:none}
+.small-0 {width: 0%}
 
 .small-12-img{flex:100%;}
 .small-9-img{flex:75%;}
@@ -246,6 +234,7 @@ body h3 {
 		background-size: cover;
 		height:100vh;
 	}
+	
 
 main h1{
 	font-size: 36px;

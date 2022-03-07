@@ -7,11 +7,13 @@
 	.medium-6 {width: 50%; }
     .medium-4 {width: 33.33333%;}
 	.medium-3 {width: 25%;}
+	.medium-0 {width: 0%}
 	
 	.medium-4-img{flex:33.33333%}
-	.medium-6-img{flex:100%}
+	.medium-6-img{flex:50%}
 	.medium-8-img{flex:66.66666%}
 	.medium-9-img{flex:75%; }
+	.medium-12-img{flex:100%; }
 	
 	.why-invest-med {
 		background-image: url('../images/Why_invest.png');
@@ -67,8 +69,8 @@
 		align-items: center;
 		justify-content:center;
 		flex-direction: row;
-		padding-left:5vw;
-		padding-right: 5vw;
+		padding-left:0;
+		padding-right: 0;
 		height:80vh;
 	}
 	
@@ -99,6 +101,13 @@
 		padding-top: 6vw;
 		padding-bottom: 6vw;
 	}	
+	
+	.img-txt-container {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		flex-direction: row;
+	}
 	
 	.img-txt-container-medium {
 		display: flex;
