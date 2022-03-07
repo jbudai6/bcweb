@@ -2,29 +2,33 @@
     
      /* GRID */
 	.medium-11 {width: 90%;}
+	.medium-10 {width: 83.3333%;}
     .medium-9 {width: 75%;}
 	.medium-8 {width: 66.66666%;}
 	.medium-6 {width: 50%; }
     .medium-4 {width: 33.33333%;}
 	.medium-3 {width: 25%;}
+	.medium-2 {width: 16.6666%;}
 	.medium-0 {width: 0%}
 	
+	.medium-2-img {flex: 16.6666%;}
 	.medium-4-img{flex:33.33333%}
 	.medium-6-img{flex:50%}
 	.medium-8-img{flex:66.66666%}
 	.medium-9-img{flex:75%; }
+	.medium-10-img {flex: 83.3333%;}
 	.medium-12-img{flex:100%; }
 	
 	.column-left-img{
 	float: left;  
 	padding-left: 0;
-	padding-right: 5vw;
+	padding-right: 0;
 	margin: 0 0 0 0;
 }
 
 .column-right-img{
 	float: right;  
-	padding-left: 5vw;
+	padding-left: 0;
 	padding-right: 0;
 	margin: 0 0 0 0;
 }
@@ -177,6 +181,16 @@
 	}
 	
 	nav button {display: none;}
+	
+	nav a {
+    display: block;
+    padding: .8rem 0; 
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+	width:15vw;
+	}
+	
     nav ul {display: block;}
     nav li {width: 25%; float: left;}
 	nav li.active {background-color: rgba(0,0,0,0);}

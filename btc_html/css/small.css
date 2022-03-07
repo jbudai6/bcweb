@@ -69,7 +69,19 @@ body h3 {
 	margin: 0 0 0 0;
 }
 	
+.column-header-left {
+	float: left;  
+	padding-left: 5vw;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
 
+.column-header-right {
+	float: right;  
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin: 0 0 0 0;
+}
 
 .center-align-small {text-align:center}
 .center-align {text-align:center}
@@ -406,16 +418,19 @@ button#hamburgerBtn {
     font-size: 2.4rem;
     cursor: pointer;
 }
+
 nav ul{margin:0; padding: 0;}
 nav li {list-style-type: none; font-size:16px; line-height: 24px;
 	font-weight:400;}
 
 nav a {
+	position: relative;
     display: block;
     padding: .8rem 0; 
     color: #fff;
     text-align: center;
     text-decoration: none;
+	width:100vw;
 }
 nav li.active {background-color: rgba(11,54,81,1);}
 nav a:hover {background-color: rgba(255,255,255,0.1);}

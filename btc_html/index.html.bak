@@ -21,13 +21,12 @@
 	
 	<div class="row clearfix">
 	<div class="img-txt-container-nav">
-	<div class="column small-8-img medium-4-img">
+	<div class="column-header-left small-8-img medium-2-img"> <!--small-8-img-->
 	<img src="images/Colored logo.svg" alt="Biotech Collective Logo">
 	</div>
 	
-	<div class="column small-4-img medium-8-img">
+	<div class="column-header-right small-4-img medium-12-img"><!--small-4-img-->
 	<nav class="clearfix">
-        <div class="right-align-img-small">
         <button id="hamburgerBtn">&#9776;</button>
         <ul id="primaryNav">
             <li class="active"><a href="#aboutUs">About Us</a></li>
@@ -35,7 +34,6 @@
             <li class="active"><a href="#whyFundraise">Why Fundraise?</a></li>
 			<li class="active"><a href="#contactUs">Contact Us</a></li>
         </ul>
-        </div>
     </nav>
 	</div>
 	</div>
@@ -128,7 +126,7 @@
 </div>
 </div>
 
-<div class="column small-12 medium-6 large-7 xlarge-6">
+<div class="column-left-img small-12 medium-6 large-7 xlarge-6">
 	<section class="why-invest-med"/>
 </div>
 
