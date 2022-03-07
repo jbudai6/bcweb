@@ -46,9 +46,11 @@
 		height:60vh;
 	}
 	
-	.img-header{
-		object-fit: cover;
-		max-height: 50vh;
+	.header-img-med {
+		background-image: url('../images/Header_image_2.png');
+		background-repeat: no-repeat; 
+		background-size: cover;
+		height:40vh;
 	}
 
 	.img-txt-container {
@@ -63,14 +65,14 @@
 		background-image: url('../images/Why_invest.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:0;
+		height:100vh;
 	}
 	
 	.why-fund-med {
 		background-image: url('../images/Why_fundraise.png');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:0;
+		height:1100vh;
 	}
 	
 	header{
@@ -81,7 +83,7 @@
 		background-attachment: fixed;  
 		background-size: cover;
 		color: #FFFFFF;
-		height:60vh;
+		height:80vh;
 	}
 	
 	

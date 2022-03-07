@@ -15,6 +15,20 @@
 	.medium-9-img{flex:75%; }
 	.medium-12-img{flex:100%; }
 	
+	.column-left-img{
+	float: left;  
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
+
+.column-right-img{
+	float: right;  
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
+	
 	.why-invest-med {
 		background-image: url('../images/Why_invest.png');
 		background-repeat: no-repeat; 
@@ -27,6 +41,13 @@
 		background-repeat: no-repeat; 
 		background-size: cover;
 		height:100vh;
+	}
+	
+	.header-img-med {
+		background-image: url('../images/Header_image_2.png');
+		background-repeat: no-repeat; 
+		background-size: cover;
+		height:60vh;
 	}
 
 	
