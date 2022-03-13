@@ -78,6 +78,12 @@ body h3 {
 
 .column-header-right {
 	float: right;  
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 0 0 0;
+}
+
+.logo-header { 
 	padding-left: 5vw;
 	padding-right: 5vw;
 	margin: 0 0 0 0;
@@ -102,6 +108,7 @@ body h3 {
 
 .right-align-img-small{
 	float: right;
+	padding-right:5vw;
 }
 
 
@@ -116,6 +123,7 @@ body h3 {
 .small-8-img{flex:66.66666%;}
 .small-6-img{flex:50%;}
 .small-4-img{flex:33.33333%;}
+.small-3-img{flex:25%;}
 
 .grid { direction : rtl; }
 .grid-item { direction : ltr; }

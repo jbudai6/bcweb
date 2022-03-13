@@ -86,7 +86,7 @@
 	}
 	
 	.right-align-img-small{
-		float:none;
+		float:right;
 	}
 	
 	.img-txt-container-header {

@@ -85,10 +85,6 @@
 		display: none;	
 	}
 	
-	.right-align-img-small{
-		float:none;
-	}
-	
 	.img-txt-container-header {
 		display: flex;
 		align-items: center;
