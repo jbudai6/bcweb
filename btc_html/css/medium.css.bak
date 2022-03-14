@@ -85,10 +85,6 @@
 		display: none;	
 	}
 	
-	.right-align-img-small{
-		float:right;
-	}
-	
 	.img-txt-container-header {
 		display: flex;
 		align-items: center;
@@ -141,7 +137,7 @@
 		padding-left:0;
 		padding-right: 0;
 		padding-top: 10vh;
-		padding-bottom: 10vh;
+		padding-bottom: 20vh;
 		margin: 0 0 0 0;
 	}
 	
@@ -189,6 +185,7 @@
     text-align: center;
     text-decoration: none;
 	width:15vw;
+	height: auto;
 	}
 	
     nav ul {display: block;}

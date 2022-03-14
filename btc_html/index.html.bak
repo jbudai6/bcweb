@@ -21,7 +21,7 @@
 	
 	<div class="row clearfix">
 	<div class="img-txt-container-nav">
-	<div class="column-header-right small-4-img">
+	<div class="column-header-right small-4-img medium-12-img">
 	<nav class="clearfix">
 		<img class="logo-header" src="images/Colored logo.svg" alt="Biotech Collective Logo">
 		
@@ -280,11 +280,13 @@
         <h4>For Businesses</h4>
     </section>
 	
-	<section class="container-geo small-12-img medium-9-img">
+	<section class="column small-12 medium-9 large-9"><!--small-12-img medium-9-img">-->
+	<div class="container-geo">
 		<div class="slidecontainer">
 			<div id="demo" class="bubble"></div>
 			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange">
 		</div>
+	</div>
     </section>
 	</div><!-- end row -->	
 
@@ -293,10 +295,10 @@
 	<section class="column-right small-12 medium-9">
         <form action="/action_page.php">
 			<label for="fname"><h6>Email Address</h6></label>
-			<input type="text" id="fname" name="fname"><br><br>
+			<input class="textbox-syle" type="text" id="fname" name="fname"><br><br>
 			<label for="lname"><h6>Message</h6></label>
-			<input type="text" id="lname" name="lname"><br><br>
-			<input type="submit" value="Send Message">
+			<input class="textbox-syle" type="text" id="lname" name="lname"><br><br>
+			<input class="button-syle" type="submit" value="Send Message">
 		</form>		
     </section>
 	</div><!-- end row -->	

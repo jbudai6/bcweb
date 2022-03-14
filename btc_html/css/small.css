@@ -128,6 +128,34 @@ body h3 {
 .grid { direction : rtl; }
 .grid-item { direction : ltr; }
 
+.button-container{
+	padding-top: 3vw;
+	padding-bottom:10vw;	
+}
+
+.button-syle{
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding: 20px 40px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textbox-syle{
+	border-radius: 10px;
+	color: #4F4F4F;
+	font-size: 16px;
+	line-height:24px;
+	font-weight:400;
+	padding:10px;
+	width:100%;
+}
 
 .img-resize img {
     width: 100%;
@@ -220,6 +248,8 @@ body h3 {
 	flex-direction: row;
 	padding-top:25px;
 	padding-bottom:50px;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 
@@ -346,7 +376,9 @@ footer li {padding-bottom: .3rem;}
 /* slider */
 .slidecontainer {
   position: relative;
-  width: 80%; /* Width of the outside container */
+  width: 100%; /* Width of the outside container */
+  padding:0;
+  margin:0;
 }
 
 /* The slider itself */
@@ -434,11 +466,12 @@ nav li {list-style-type: none; font-size:16px; line-height: 24px;
 nav a {
 	position: relative;
     display: block;
-    padding: .8rem 0; 
+	padding-top: 6vh;
     color: #fff;
     text-align: center;
     text-decoration: none;
 	width:100vw;
+	height:15vh;
 }
 nav li.active {background-color: rgba(11,54,81,1);}
 nav a:hover {background-color: rgba(255,255,255,0.1);}

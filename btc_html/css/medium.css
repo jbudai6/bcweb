@@ -185,6 +185,7 @@
     text-align: center;
     text-decoration: none;
 	width:15vw;
+	height: auto;
 	}
 	
     nav ul {display: block;}
