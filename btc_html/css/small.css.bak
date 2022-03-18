@@ -147,6 +147,25 @@ body h3 {
 	margin-right: auto;
 }
 
+.button-syle-2{
+	text-align: center;
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	float:center;
+	width:30vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5vw;
+}
+
 .textbox-syle{
 	border-radius: 10px;
 	color: #4F4F4F;
@@ -229,7 +248,7 @@ body h3 {
 	flex-direction: row;
 	padding-left:8vw;
 	padding-right: 25vw;
-	height: 80vh;
+	height: 110vw;
 }
 	
 .img-txt-container-nav {
@@ -237,8 +256,8 @@ body h3 {
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: row;
-	padding-top:8vh;
-	height:20vh;
+	padding-top:5vw;
+	height:10vw;
 }
 
 .container-geo {
@@ -272,15 +291,14 @@ body h3 {
 }
 
 	.why-invest-med {
-		background-image: url('../images/Why_invest.png');
+		background-image: url('../images/Why_invest.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
 		height:100vw;
-		padding-top:10vh;
 	}
 	
 	.why-fund-med {
-		background-image: url('../images/Why_fundraise.png');
+		background-image: url('../images/Why_fundraise.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
 		height:100vw;
@@ -330,12 +348,12 @@ main h6{
 header{
     font-size: 24px;
 	font-weight: 700;
-    background-image: url('../images/Header_background.png');
+    background-image: url('../images/Header_background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
 	color: #FFFFFF;
-	height:100vh;
+	height:130vw;
 }
 
 header h1{
@@ -452,6 +470,10 @@ footer li {padding-bottom: .3rem;}
 
 
 /* navigation rules */
+.contact-button-syle{
+
+}
+
 button#hamburgerBtn { 
     background: none;
     border:none;
@@ -467,15 +489,16 @@ nav li {list-style-type: none; font-size:16px; line-height: 24px;
 nav a {
 	position: relative;
     display: block;
-	padding-top: 6vh;
+	padding-top: 3vw;
     color: #fff;
     text-align: center;
     text-decoration: none;
 	width:100vw;
-	height:15vh;
+	height:10vw;
 }
 nav li.active {background-color: rgba(11,54,81,1);}
-nav a:hover {background-color: rgba(255,255,255,0.1);}
+.hover-1:hover {background-color: rgba(255,255,255,0.1);}
+.hover-2:hover {background-color: rgba(255,255,255,0.1);}
 nav ul.open {display: block;}
 nav ul {display: none;}
 

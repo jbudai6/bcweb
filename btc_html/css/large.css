@@ -43,14 +43,15 @@
 		padding-right: 0;
 		padding-top: 0;
 		padding-bottom: 0;
-		height:60vh;
+		height:50vw;
 	}
 	
 	.header-img-med {
-		background-image: url('../images/Header_image_2.png');
+		background-image: url('../images/Header_image_2.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:40vh;
+		border-radius: 10px;
+		height:40vw;
 	}
 
 	.img-txt-container {
@@ -58,32 +59,38 @@
 		align-items: center;
 		justify-content: start;
 		flex-direction: row;
-		height: 25vh;
+		height: 10vw;
 	}
 	
 	.why-invest-med {
-		background-image: url('../images/Why_invest.png');
+		background-image: url('../images/Why_invest.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:40vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		border-radius: 10px 10px 10px 10px;
 	}
 	
 	.why-fund-med {
-		background-image: url('../images/Why_fundraise.png');
+		background-image: url('../images/Why_fundraise.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:40vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		border-radius: 10px 10px 10px 10px;
 	}
 	
 	header{
 		font-size: 24px;
 		font-weight: 700;
-		background-image: url('../images/Header_background.png');
+		background-image: url('../images/Header_background.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;  
 		background-size: cover;
 		color: #FFFFFF;
-		height:80vh;
+		height:60vw;
 	}
 	
 	

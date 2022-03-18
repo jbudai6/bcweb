@@ -34,24 +34,30 @@
 }
 	
 	.why-invest-med {
-		background-image: url('../images/Why_invest.png');
+		background-image: url('../images/Why_invest.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:60vw;
+		border-radius: 10px 0px 0px 10px;
 	}
 	
 	.why-fund-med {
-		background-image: url('../images/Why_fundraise.png');
+		background-image: url('../images/Why_fundraise.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:100vh;
+		height:60vw;
+		border-radius: 0px 10px 10px 0px;
 	}
 	
 	.header-img-med {
-		background-image: url('../images/Header_image_2.png');
+		background-image: url('../images/Header_image_2.jpg');
 		background-repeat: no-repeat; 
 		background-size: cover;
-		height:60vh;
+		height:30vw;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		border: none;
 	}
 
 	
@@ -92,7 +98,7 @@
 		flex-direction: row;
 		padding-left:0;
 		padding-right: 0;
-		height:80vh;
+		height:50vw;
 	}
 	
 	.img-social img {
@@ -136,8 +142,8 @@
 		flex-direction: row;
 		padding-left:0;
 		padding-right: 0;
-		padding-top: 10vh;
-		padding-bottom: 10vh;
+		padding-top: 5vw;
+		padding-bottom: 2vw;
 		margin: 0 0 0 0;
 	}
 	
@@ -155,12 +161,16 @@
 	header{
 		font-size: 24px;
 		font-weight: 700;
-		background-image: url('../images/Header_background.png');
+		background-image: url('../images/Header_background.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;  
 		background-size: cover;
 		color: #FFFFFF;
-		height:100vh;
+		height:60vw;
+		-webkit-border-radius: 0px 0px 50px 0px;
+		-moz-border-radius: 0px 0px 50px 0px;
+		border-radius: 0px 0px 50px 0px;
+		border: none;
 	}
 
 
@@ -176,6 +186,68 @@
 		font-weight:700;
 	}
 	
+	.logo-header { 
+	padding-left: 5vw;
+	padding-right: 0vw;
+	margin: 0 0 0 0;
+}
+	
+	.button-syle{
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding: 20px 40px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	float:left;
+	}
+	
+	.button-syle-2{
+	text-align: center;
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	float:center;
+	width:14vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5vw;
+	}
+	
+	.contact-button-syle{
+    text-align: center;
+	color:#FB7161;
+	background:none;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	margin:0;
+	width:15vw;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-left:2vw;
+	padding-right:2vw;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+	.list-pad{
+	text-align: center;
+	background:none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:0;
+	}
+	
 	nav button {display: none;}
 	
 	nav a {
@@ -184,13 +256,17 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-	width:15vw;
+	width:16vw;
 	height: auto;
 	}
 	
     nav ul {display: block;}
-    nav li {width: 25%; float: left;}
+    nav li {width: 25%; float: left; }
+	nav li {}
 	nav li.active {background-color: rgba(0,0,0,0);}
+	nav a:hover {}
+	.hover-1:hover {text-decoration:underline;background-color: rgba(255,255,255,0.0);}
+	.hover-2:hover {background-color: rgba(255,255,255,0.0);}
 
 
 /* slider */
