@@ -17,14 +17,45 @@
 </head>
 
 <body>
-    <header class="clearfix">
-	
-	<div class="row clearfix">
+
+   <header class="clearfix">
+   
+   <div class="row clearfix img-medium-remove">
+   
+   <img class="logo-header" src="images/Colored logo.svg" alt="Biotech Collective Logo">
+   
+   	<div class="menu-wrap">
+		<input type="checkbox" class="toggler">
+		<div class="hamburger">
+			<div></div>
+		</div>
+		
+		<div class="menu">
+		<div>
+		<div>
+		
+		<ul>
+            <li><a href="#aboutUs"><div class="list-pad">About Us</div></a></li>
+            <li><a href="#whyInvest"><div class="list-pad">Why Invest?</div></a></li>
+            <li><a href="#whyFundraise"><div class="list-pad">Why Fundraise?</div></a></li>
+			<li><a href="#contactUs"><div class="contact-button-syle">Contact Us</div></a></li>
+        </ul>
+		
+		</div>
+		</div>
+		</div>
+	</div>
+   
+   </div>
+   
+   
+   
+	<div class="row clearfix img-small-remove">
 	<div class="img-txt-container-nav">
 	<div class="column-header-right small-4-img medium-12-img">
 	<nav class="clearfix">
 		<img class="logo-header" src="images/Colored logo.svg" alt="Biotech Collective Logo">
-		
+	
 		<div class="right-align-img-small">
         <button id="hamburgerBtn">&#9776;</button>
         <ul id="primaryNav">
@@ -36,9 +67,11 @@
         </div>
 
     </nav>
+
 	</div>
 	</div>
 	</div><!-- end row -->
+	
     
 <div class="row">
 <div class="img-txt-container-header">
@@ -54,13 +87,13 @@
 </div>
 </div><!-- end row -->
 
-    </header>
+</header>
     
 
     
     <main> 	
 
-	
+
 <div class="row">
 <div class="img-txt-container-medium">
 <div class="column small-12 medium-6 large-5 xlarge-6">
@@ -130,9 +163,9 @@
 
 
 <div class="row">
-<div class="column small-12">
+<div class="column small-12 img-medium-remove">
 <div class="button-syle-2">
-<a href="#contactUs"><h6>For investors<h6></a>
+<a href="#contactUs"><h6 class="orange">For investors<h6></a>
 </div>
 </div>
 </div>
@@ -147,9 +180,9 @@
 </div>
 
 <div class="row">
-<div class="column medium-6 img-small-remove">
+<div class="column-left img-small-remove">
 <div class="button-syle-2">
-<a href="#contactUs"><h6>For investors<h6></a>
+<a href="#contactUs"><h6 class="orange">For investors<h6></a>
 </div>
 </div>
 </div>
@@ -211,7 +244,7 @@
 <div class="row">
 <div class="column small-12 img-medium-remove">
 <div class="button-syle-2">
-<a href="#contactUs"><h6>For businesses<h6></a>
+<a href="#contactUs"><h6  class="orange">For businesses<h6></a>
 </div>
 </div>
 </div>
@@ -225,9 +258,9 @@
 </div>
 
 <div class="row dark-background">
-<div class="column medium-6">
-<div class="button-syle-2 img-small-remove">
-<a href="#contactUs"><h6>For businesses<h6></a>
+<div class="column-right img-small-remove">
+<div class="button-syle-2">
+<a href="#contactUs"><h6  class="orange">For businesses<h6></a>
 </div>
 </div>
 </div>
@@ -235,7 +268,7 @@
 
 	
 	
-	<div class="row light-background">
+	<div class="row light-background bottom-pad">
 
 	<div id="aboutUs" class="row center-align-small">
         <section class="column small-12 medium-6 large-3">
@@ -255,7 +288,7 @@
 			technology seeking to bring transformative cures to diseases with unmet medical needs.  Our platform leverages recently passed 
 			SEC regulations, opening up such investment opportunities and allowing any investor to purchase equity directly in early-stage 
 			biotech companies.</h5>
-        </section>
+    </section>
 		
     </div> <!-- end row -->	
 	
@@ -334,21 +367,18 @@
 	
 	<div class="row">
 	<section class="column-right small-12 medium-9">
-        <form action="/action_page.php">
-			<label for="fname"><h6>Email Address</h6></label>
-			<input class="textbox-syle" type="text" id="fname" name="fname"><br><br>
-			<label for="lname"><h6>Message</h6></label>
-			<input class="textbox-syle" type="text" id="lname" name="lname"><br><br>
+        <form>
+			<label for="email"><h6>Email Address</h6></label>
+			<input class="textbox-syle" type="text" id="email" name="email"><br><br>
+			<label for="message"><h6>Message</h6></label>
+			<input class="textbox-syle" type="text" id="message" name="message"><br><br>
 			<div class="button-container">
 			<input class="button-syle" type="submit" value="Send Message">
 			</div>
 		</form>		
     </section>
 	</div><!-- end row -->	
-	
-<!--<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>-->
-	
+
 	
 </div>
 
@@ -435,16 +465,13 @@ server called "action_page.php".</p>-->
             <h5>Home</h5>
         </section>
         <section class="column-no-pad small-12 medium-3 center-align">
-            <!--<h5><a href="#aboutUs">About Us</a></h5>-->
-			<h5>About Us</h5>
+            <a href="#aboutUs"><h5>About Us</h5></a>
         </section>
         <section class="column-no-pad small-12 medium-3 center-align">
-            <!--<h5><a href="#whyInvest">Why Invest?</a></h5>-->
-			<h5>Why Invest?</h5>
+            <a href="#whyInvest"><h5>Why Invest?</h5></a>
         </section>
          <section class="column-no-pad small-12 medium-3 center-align">
-            <!--<h5><a href="#whyFundraise">Why Fundraise?</a></h5>-->
-			<h5>Why Fundraise?</h5>
+            <a href="#whyFundraise"><h5>Why Fundraise?</h5></a>
         </section>
         </div> <!-- end row -->
 		
