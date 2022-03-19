@@ -21,8 +21,10 @@
    <header class="clearfix">
    
    <div class="row clearfix img-medium-remove">
-   
+   <div class="column-left">
    <img class="logo-header" src="images/Colored logo.svg" alt="Biotech Collective Logo">
+   </div>
+   
    
    	<div class="menu-wrap">
 		<input type="checkbox" class="toggler">
@@ -49,28 +51,29 @@
    </div>
    
    
+   <div class="row clearfix img-small-remove">
    
-	<div class="row clearfix img-small-remove">
-	<div class="img-txt-container-nav">
-	<div class="column-header-right small-4-img medium-12-img">
-	<nav class="clearfix">
-		<img class="logo-header" src="images/Colored logo.svg" alt="Biotech Collective Logo">
-	
-		<div class="right-align-img-small">
-        <button id="hamburgerBtn">&#9776;</button>
-        <ul id="primaryNav">
-            <li class="active"><a class="hover-1" href="#aboutUs"><div class="list-pad">About Us</div></a></li>
-            <li class="active"><a class="hover-1" href="#whyInvest"><div class="list-pad">Why Invest?</div></a></li>
-            <li class="active"><a class="hover-1"  href="#whyFundraise"><div class="list-pad">Why Fundraise?</div></a></li>
-			<li class="active"><a class="hover-2" href="#contactUs"><div class="contact-button-syle">Contact Us</div></a></li>
-        </ul>
-        </div>
+   <div class="column-left header-top medium-25">
+   <img class="logo-margin list-pad" src="images/Colored logo.svg" alt="Biotech Collective Logo">
+   </div>
+   
+   <div class="column-center header-top medium-25">
+   <a class="hover-1" href="#aboutUs"><div class="list-pad white"><h3>About Us</h3></div></a>
+   </div>
+   
+   <div class="column-center header-top medium-25">
+   <a class="hover-1" href="#whyInvest"><div class="list-pad white"><h3>Why Invest?</h3></div></a>
+   </div>
+   
+   <div class="column-center header-top medium-25">
+   <a class="hover-1"  href="#whyFundraise"><div class="list-pad white"><h3>Why Fundraise?</h3></div></a>
+   </div>
+   
+   <div class="column-right header-top medium-25">
+   <a class="hover-2" href="#contactUs"><div class="contact-button-syle"><h3>Contact Us</h3></div></a>
+   </div>  
+   </div>
 
-    </nav>
-
-	</div>
-	</div>
-	</div><!-- end row -->
 	
     
 <div class="row">
@@ -163,7 +166,7 @@
 
 
 <div class="row">
-<div class="column img-medium-remove">
+<div class="column small-12 img-medium-remove">
 <div class="button-syle-2">
 <a href="#contactUs"><h6 class="orange">For investors<h6></a>
 </div>
@@ -417,15 +420,14 @@
             <h5>Home</h5>
         </section>
         <section class="column-no-pad img-large-remove">
-            <!--<h5><a href="#aboutUs">About Us</a></h5>-->
-			<h5>About Us</h5>
+            <h5><a class="grey" href="#aboutUs">About Us</a></h5>
         </section>
         <section class="column-no-pad img-large-remove">
-            <!--<h5><a href="#whyInvest">Why Invest?</a></h5>-->
-			<h5>Why Invest?</h5>
+            <h5 ><a class="grey" href="#whyInvest">Why Invest?</a></h5>
+			<h5 >Why Invest?</h5>
         </section>
          <section class="column-no-pad img-large-remove">
-            <!--<h5><a href="#whyFundraise">Why Fundraise?</a></h5>-->
+            <h5><a class="grey" href="#whyFundraise">Why Fundraise?</a></h5>
 			<h5>Why Fundraise?</h5>
         </section>
 		
@@ -465,13 +467,13 @@
             <h5>Home</h5>
         </section>
         <section class="column-no-pad small-12 medium-3 center-align">
-            <a href="#aboutUs"><h5>About Us</h5></a>
+            <a class="grey" href="#aboutUs"><h5>About Us</h5></a>
         </section>
         <section class="column-no-pad small-12 medium-3 center-align">
-            <a href="#whyInvest"><h5>Why Invest?</h5></a>
+            <a class="grey" href="#whyInvest"><h5>Why Invest?</h5></a>
         </section>
          <section class="column-no-pad small-12 medium-3 center-align">
-            <a href="#whyFundraise"><h5>Why Fundraise?</h5></a>
+            <a class="grey" href="#whyFundraise"><h5>Why Fundraise?</h5></a>
         </section>
         </div> <!-- end row -->
 		

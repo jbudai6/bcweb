@@ -52,8 +52,6 @@
 		background-size: cover;
 		border-radius: 10px;
 		height:40vw;
-		margin-left: 5vw;
-		margin-right: 5vw;
 	}
 
 	.img-txt-container {
@@ -119,5 +117,15 @@
 		line-height: 32px;
 		font-weight:700;
 }
+
+	nav a {
+    display: block;
+    padding: .8rem 0; 
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+	width:19.2vw;
+	height: auto;
+	}
     
 } /* end of media query */
