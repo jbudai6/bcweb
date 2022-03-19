@@ -167,16 +167,18 @@ body h3 {
 	text-align: center;
 	color:#FB7161;
 	font-size: 14px;
-	line-height:21px;
 	font-weight:400;
 	background:none;
+	padding: 20px 40px;
+	padding-top:0;
+	padding-bottom:0;
 	padding-left: 2px;
 	padding-right: 2px;
 	border-radius: 10px;
 	border: 1.5px solid #FB7161;
 	display: block;
-	float:center;
 	width:30vw;
+	height:auto;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: 5vw;
@@ -546,7 +548,9 @@ a{text-decoration:none;color:#4F4F4F;}
 }
 
 .menu-wrap{
-	position:relative;
+	position:fixed;
+	top:0;
+	left:0;
 	z-index:1;
 }
 

@@ -38,7 +38,7 @@
             <li><a href="#aboutUs"><div class="list-pad">About Us</div></a></li>
             <li><a href="#whyInvest"><div class="list-pad">Why Invest?</div></a></li>
             <li><a href="#whyFundraise"><div class="list-pad">Why Fundraise?</div></a></li>
-			<li><a href="#contactUs"><div class="contact-button-syle">Contact Us</div></a></li>
+			<li><a href="#contactUs"><div class="list-pad">Contact Us</div></a></li>
         </ul>
 		
 		</div>
@@ -163,7 +163,7 @@
 
 
 <div class="row">
-<div class="column small-12 img-medium-remove">
+<div class="column img-medium-remove">
 <div class="button-syle-2">
 <a href="#contactUs"><h6 class="orange">For investors<h6></a>
 </div>
