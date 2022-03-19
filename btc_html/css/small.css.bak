@@ -596,8 +596,8 @@ a{text-decoration:none;color:#FFFFFF;}
 	right:0;
 	z-index:2;
 	cursor:pointer;
-	width:50px;
-	height:50px;
+	width:100px;
+	height:100px;
 	opacity:0;
 }
 
@@ -606,10 +606,10 @@ a{text-decoration:none;color:#FFFFFF;}
 	top:0;
 	right:0;
 	z-index:1;
-	width:60px;
-	height:60px;
-	padding:1rem;
-	background:var(--primary-color);
+	width:100px;
+	height:100px;
+	padding:2rem;
+	background:none;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -619,7 +619,7 @@ a{text-decoration:none;color:#FFFFFF;}
 .menu-wrap .hamburger>div{
 	position:relative;
 	width:100%;
-	height:2px;
+	height:3px;
 	background-color:#fff;
 	display:flex;
 	align-items:center;
@@ -634,7 +634,7 @@ a{text-decoration:none;color:#FFFFFF;}
 	z-index:1;
 	top:-10px;
 	width:100%;
-	height: 2px;
+	height: 3px;
 	background:inherit;
 }
 

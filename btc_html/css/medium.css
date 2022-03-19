@@ -206,6 +206,10 @@
 	float:left;
 	}
 	
+	.header-top{
+	padding-top: 5vw;
+}
+	
 	.button-syle-2{
 	text-align: center;
 	color:#FB7161;
