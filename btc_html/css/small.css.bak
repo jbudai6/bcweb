@@ -180,6 +180,10 @@ body h3 {
 	color:#FFFFFF;
 }
 
+.grey{
+	color:#4F4F4F;
+}
+
 .logo-margin{
 	margin-right:auto;
 }
@@ -582,14 +586,14 @@ a{text-decoration:none;color:#FFFFFF;}
 .menu-wrap{
 	position:fixed;
 	top:0;
-	left:0;
+	right:0;
 	z-index:1;
 }
 
 .menu-wrap .toggler{
 	position:absolute;
 	top:0;
-	left:0;
+	right:0;
 	z-index:2;
 	cursor:pointer;
 	width:50px;
@@ -600,7 +604,7 @@ a{text-decoration:none;color:#FFFFFF;}
 .menu-wrap .hamburger{
 	position:absolute;
 	top:0;
-	left:0;
+	right:0;
 	z-index:1;
 	width:60px;
 	height:60px;
@@ -653,7 +657,7 @@ a{text-decoration:none;color:#FFFFFF;}
 .menu-wrap .menu{
 	position:fixed;
 	top:0;
-	left:0;
+	right:0;
 	width:100%;
 	height:100%;
 	visibility:hidden;
