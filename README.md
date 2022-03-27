@@ -1,2 +1,3 @@
 # bcweb
-# Landing Page for The Biotech Collective
+## About
+Landing Page for The Biotech Collective
