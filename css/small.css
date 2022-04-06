@@ -292,7 +292,7 @@ body h3 {
 	flex-direction: row;
 	padding-left:8vw;
 	padding-right: 25vw;
-	height: 110vw;
+	height: 110vh;
 }
 	
 .img-txt-container-nav {
@@ -391,17 +391,17 @@ main h6{
 
 header{
     font-size: 24px;
-	font-weight: 700;
+    font-weight: 700;
     background-image: url('../images/Header_background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-	color: #FFFFFF;
-	height:150vh;
-	-webkit-border-radius: 0px 0px 50px 50px;
-	-moz-border-radius: 0px 0px 50px 50px;
-	border-radius: 0px 0px 50px 50px;
-	border: none;
+    color: #FFFFFF;
+    height:120vh;
+    -webkit-border-radius: 0px 0px 50px 50px;
+    -moz-border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 50px 50px;
+    border: none;
 }
 
 header.before{
