@@ -27,7 +27,7 @@
    
    
    	<div class="menu-wrap">
-		<input type="checkbox" class="toggler">
+		<input type="checkbox" class="toggler" id="toggler">
 		<div class="hamburger">
 			<div></div>
 		</div>
@@ -37,10 +37,10 @@
 		<div>
 		
 		<ul>
-            <li><a href="#aboutUs"><div class="list-pad">About Us</div></a></li>
-            <li><a href="#whyInvest"><div class="list-pad">Why Invest?</div></a></li>
-            <li><a href="#whyFundraise"><div class="list-pad">Why Fundraise?</div></a></li>
-			<li><a href="#contactUs"><div class="list-pad">Contact Us</div></a></li>
+            <li><a href="#aboutUs"><div class="list-pad" id="myhref1">About Us</div></a></li>
+            <li><a href="#whyInvest"><div class="list-pad" id="myhref2">Why Invest?</div></a></li>
+            <li><a href="#whyFundraise"><div class="list-pad" id="myhref3">Why Fundraise?</div></a></li>
+			<li><a href="#contactUs"><div class="list-pad" id="myhref4">Contact Us</div></a></li>
         </ul>
 		
 		</div>
@@ -361,7 +361,7 @@
 	<div class="container-geo">
 		<div class="slidecontainer">
 			<div id="demo" class="bubble"></div>
-			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange">
+			<input type="range" min="100" max="100000" value="100" step="10" class="slider no-border" id="myRange">
 		</div>
 	</div>
     </section>
@@ -510,6 +510,7 @@
 		var output = document.getElementById("demo");
 		
 		output.innerHTML = Number(slider.value).toLocaleString();
+		output.style.left = `calc(${0}%)`;
 
 
 		slider.oninput = function() {
@@ -523,6 +524,32 @@
 		  output.style.left = `calc(${newVal}%)`;
 		}
 		
+		
+		
+		
+		
+	</script>
+	
+	<script>
+		var myhref1 = document.getElementById("myhref1");
+		var myhref2 = document.getElementById("myhref2");
+		var myhref3 = document.getElementById("myhref3");
+		var myhref4 = document.getElementById("myhref4");
+		
+		var toggler = document.getElementById("toggler");
+		
+		myhref1.addEventListener("click", function(){
+			toggler.checked = false;
+		})
+		myhref2.addEventListener("click", function(){
+			toggler.checked = false;
+		})
+		myhref3.addEventListener("click", function(){
+			toggler.checked = false;
+		})
+		myhref4.addEventListener("click", function(){
+			toggler.checked = false;
+		})
 		
 		
 		
