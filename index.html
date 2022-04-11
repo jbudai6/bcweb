@@ -320,14 +320,14 @@
 	<div class="row">
 	<section class="column center-align-small small-6 img-medium-remove">
 	<input type="checkbox" id="investors3" class="inv-bus" value="For Investors">
-	<div class="label-for-check">
+	<div id="investors5" class="label-for-check">
 		<h3>For Investors</h3>
 	</div>
     </section>
 	
 	<section class="column center-align-small small-6 img-medium-remove">
 	<input type="checkbox" id="businesses3" class="inv-bus" value="For Businesses">
-	<div class="label-for-check">
+	<div id="businesses5" class="label-for-check">
 		<h3>For Businesses</h3>
     </div>
 	</section>
@@ -353,7 +353,7 @@
 	<div class="row">
 	<section class="column medium-3 large-3 img-small-remove">
 	<input type="checkbox" id="investors4" class="inv-bus" value="For Investors">
-	<div class="label-for-check">
+	<div id="investors6" class="label-for-check">
 		<h3>For Investors</h3>
 	</div>
     </section>
@@ -366,7 +366,7 @@
 	<div class="row">
 	<section class="column medium-3 large-3 img-small-remove">
 	<input type="checkbox" id="businesses4" class="inv-bus" value="For Businesses">
-	<div class="label-for-check">
+	<div id="businesses6" class="label-for-check">
 		<h3>For Businesses</h3>
     </div>
 	</section>
@@ -575,12 +575,18 @@
 		var myInvestorButton2 = document.getElementById("investors2");
 		var myInvestorButton3 = document.getElementById("investors3");
 		var myInvestorButton4 = document.getElementById("investors4");
+		var myInvestorButton5 = document.getElementById("investors5");
+		var myInvestorButton6 = document.getElementById("investors6");
 		
 		var myBusinessButton1 = document.getElementById("businesses1");
 		var myBusinessButton2 = document.getElementById("businesses2");
 		var myBusinessButton3 = document.getElementById("businesses3");
 		var myBusinessButton4 = document.getElementById("businesses4");
+		var myBusinessButton5 = document.getElementById("businesses5");
+		var myBusinessButton6 = document.getElementById("businesses6");
 		
+		myInvestorButton3.checked = true;
+		myInvestorButton4.checked = true;
 		
 		myInvestorButton1.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
@@ -598,7 +604,7 @@
 			myBusinessButton4.checked = false;
 		})
 		
-		myInvestorButton3.addEventListener("click", function(){
+		myInvestorButton5.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
 						
@@ -606,7 +612,7 @@
 			myBusinessButton4.checked = false;
 		})
 		
-		myInvestorButton4.addEventListener("click", function(){
+		myInvestorButton6.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
 						
@@ -630,7 +636,7 @@
 			myInvestorButton4.checked = false;
 		})
 		
-		myBusinessButton3.addEventListener("click", function(){
+		myBusinessButton5.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
 			
@@ -638,7 +644,7 @@
 			myInvestorButton4.checked = false;
 		})
 		
-		myBusinessButton4.addEventListener("click", function(){
+		myBusinessButton6.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
 			

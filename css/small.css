@@ -200,12 +200,15 @@ margin-bottom: 7.5vw;
 	margin-right: auto;
 }
 
-button:hover{
+.button:hover{
 
 color:#FFFFFF;
 background-color:#FB7161;
 
 }
+
+
+
 
 input:hover{
 color:#FFFFFF;
@@ -410,12 +413,12 @@ main h6{
 
 
 .inv-bus{
-text-decoration:none;
 visibility:hidden;
 }
 
 .inv-bus:checked + .label-for-check{
-text-decoration:underline;
+border-bottom: 3px solid #71CBAB; 
+text-decoration: none;
 }
 
 header{
