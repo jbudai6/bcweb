@@ -169,7 +169,7 @@
 <div class="row">
 <div class="column small-12 img-medium-remove">
 <a href="#contactUs">
-<button id="investors" class="button-syle">For Investors</button>
+<button id="investors1" class="button-syle">For Investors</button>
 </a>
 </div>
 </div>
@@ -186,7 +186,7 @@
 <div class="row">
 <div class="column-left img-small-remove">
 <a href="#contactUs">
-<button id="investors" class="button-syle">For Investors</button>
+<button id="investors2" class="button-syle">For Investors</button>
 </a>
 </div>
 </div>
@@ -248,7 +248,7 @@
 <div class="row">
 <div class="column small-12 img-medium-remove">
 <a href="#contactUs">
-<button id="business" class="button-syle">For Businesses</button>
+<button id="businesses1" class="button-syle">For Businesses</button>
 </a>
 
 </div>
@@ -265,7 +265,7 @@
 <div class="row dark-background">
 <div class="column-right img-small-remove">
 <a href="#contactUs">
-<button id="business" class="button-syle">For Businesses</button>
+<button id="businesses2" class="button-syle">For Businesses</button>
 </a>
 </div>
 </div>
@@ -319,12 +319,18 @@
 
 	<div class="row">
 	<section class="column center-align-small small-6 img-medium-remove">
-		<h4>For Investors</h4>
+	<input type="checkbox" id="investors3" class="inv-bus" value="For Investors">
+	<div class="label-for-check">
+		<h3>For Investors</h3>
+	</div>
     </section>
 	
 	<section class="column center-align-small small-6 img-medium-remove">
-		<h4>For Businesses</h4>
-    </section>
+	<input type="checkbox" id="businesses3" class="inv-bus" value="For Businesses">
+	<div class="label-for-check">
+		<h3>For Businesses</h3>
+    </div>
+	</section>
 	</div><!-- end row -->	
 	
 
@@ -346,7 +352,10 @@
 	
 	<div class="row">
 	<section class="column medium-3 large-3 img-small-remove">
-		<h4>For Investors</h4>
+	<input type="checkbox" id="investors4" class="inv-bus" value="For Investors">
+	<div class="label-for-check">
+		<h3>For Investors</h3>
+	</div>
     </section>
 
 	<section class="column medium-9 large-9 img-small-remove">
@@ -356,8 +365,11 @@
 	
 	<div class="row">
 	<section class="column medium-3 large-3 img-small-remove">
-        <h4>For Businesses</h4>
-    </section>
+	<input type="checkbox" id="businesses4" class="inv-bus" value="For Businesses">
+	<div class="label-for-check">
+		<h3>For Businesses</h3>
+    </div>
+	</section>
 	
 	<section class="column small-12 medium-9 large-9"><!--small-12-img medium-9-img">-->
 	<div class="container-geo">
@@ -551,6 +563,87 @@
 		})
 		myhref4.addEventListener("click", function(){
 			toggler.checked = false;
+		})
+		
+		
+		
+		
+	</script>
+	
+		<script>
+		var myInvestorButton1 = document.getElementById("investors1");
+		var myInvestorButton2 = document.getElementById("investors2");
+		var myInvestorButton3 = document.getElementById("investors3");
+		var myInvestorButton4 = document.getElementById("investors4");
+		
+		var myBusinessButton1 = document.getElementById("businesses1");
+		var myBusinessButton2 = document.getElementById("businesses2");
+		var myBusinessButton3 = document.getElementById("businesses3");
+		var myBusinessButton4 = document.getElementById("businesses4");
+		
+		
+		myInvestorButton1.addEventListener("click", function(){
+			myInvestorButton3.checked = true;
+			myInvestorButton4.checked = true;
+			
+			myBusinessButton3.checked = false;
+			myBusinessButton4.checked = false;
+		})
+		
+		myInvestorButton2.addEventListener("click", function(){
+			myInvestorButton3.checked = true;
+			myInvestorButton4.checked = true;
+						
+			myBusinessButton3.checked = false;
+			myBusinessButton4.checked = false;
+		})
+		
+		myInvestorButton3.addEventListener("click", function(){
+			myInvestorButton3.checked = true;
+			myInvestorButton4.checked = true;
+						
+			myBusinessButton3.checked = false;
+			myBusinessButton4.checked = false;
+		})
+		
+		myInvestorButton4.addEventListener("click", function(){
+			myInvestorButton3.checked = true;
+			myInvestorButton4.checked = true;
+						
+			myBusinessButton3.checked = false;
+			myBusinessButton4.checked = false;
+		})
+		
+		myBusinessButton1.addEventListener("click", function(){
+			myBusinessButton3.checked = true;
+			myBusinessButton4.checked = true;
+			
+			myInvestorButton3.checked = false;
+			myInvestorButton4.checked = false;
+		})
+		
+		myBusinessButton2.addEventListener("click", function(){
+			myBusinessButton3.checked = true;
+			myBusinessButton4.checked = true;
+			
+			myInvestorButton3.checked = false;
+			myInvestorButton4.checked = false;
+		})
+		
+		myBusinessButton3.addEventListener("click", function(){
+			myBusinessButton3.checked = true;
+			myBusinessButton4.checked = true;
+			
+			myInvestorButton3.checked = false;
+			myInvestorButton4.checked = false;
+		})
+		
+		myBusinessButton4.addEventListener("click", function(){
+			myBusinessButton3.checked = true;
+			myBusinessButton4.checked = true;
+			
+			myInvestorButton3.checked = false;
+			myInvestorButton4.checked = false;
 		})
 		
 		

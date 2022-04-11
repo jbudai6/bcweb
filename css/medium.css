@@ -211,6 +211,28 @@
 }
 	
 
+.button-syle-send-msg-inner{
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding: 20px 40px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	float: left;
+}
+
+.button-syle-send-msg{
+	background:none;
+	padding: 0;
+	border:none;
+	border-radius: 10px;
+	display: block;
+	float:left;
+}
+
 .contact-button-syle{
     	text-align: center;
 	color:#FB7161;

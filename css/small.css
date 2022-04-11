@@ -409,6 +409,15 @@ main h6{
 }
 
 
+.inv-bus{
+text-decoration:none;
+visibility:hidden;
+}
+
+.inv-bus:checked + .label-for-check{
+text-decoration:underline;
+}
+
 header{
     font-size: 24px;
     font-weight: 700;
