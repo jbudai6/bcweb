@@ -204,7 +204,7 @@ button:hover{
 
 color:#FFFFFF;
 background-color:#FB7161;
-
+z-index:1;
 }
 
 
@@ -411,14 +411,33 @@ main h6{
 	line-height: 43px;
 }
 
+.overlay{
+background-color: rgba(11,54,81,.1);
+}
+
+.label-for-check{
+background-color: #0B3651;
+border: none;
+color: #FFFFFF;
+z-index:2;
+}
+
+.label-for-check:hover{
+background-color: #0B3651;
+border: none;
+color: #FFFFFF;
+z-index:2;
+}
 
 .inv-bus{
 visibility:hidden;
 }
 
 .inv-bus:checked + .label-for-check{
+color:#FFFFFF;
 border-bottom: 3px solid #71CBAB; 
 text-decoration: none;
+background-color: none;
 }
 
 header{
