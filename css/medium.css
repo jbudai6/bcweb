@@ -210,34 +210,18 @@
 	padding-top: 5vw;
 }
 	
-	.button-syle-2{
-	text-align: center;
-	color:#FB7161;
-	font-size: 14px;
-	font-weight:400;
-	background:none;
-	border-radius: 10px;
-	border: 1.5px solid #FB7161;
-	display: block;
-	margin-bottom: 5vw;
-	height:auto;
-	width:150px;
-	}
-	
-	.contact-button-syle{
-    text-align: center;
+
+.contact-button-syle{
+    	text-align: center;
 	color:#FB7161;
 	background:none;
 	border-radius: 10px;
 	border: 1.5px solid #FB7161;
 	margin:0;
-	padding-top: 5px;
-	padding-bottom:5px;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin-left:auto;
 	margin-right:auto;
-	
 	}
 	
 	.list-pad{
