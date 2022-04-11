@@ -316,8 +316,9 @@ body h3 {
 }
 
 
+
 .dark-background {
-	background-attachment: fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-color: #0B3651;
     color: #FFFFFF;
@@ -326,12 +327,12 @@ body h3 {
 }
 
 .light-background {
-	background-attachment: fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-color: #FFFFFF;
     color: #4F4F4F;
     height: 100%;
-	overflow: auto;
+    overflow: auto;
 }
 
 	.why-invest-med {
@@ -389,10 +390,11 @@ main h6{
 	line-height: 43px;
 }
 
+
 header{
     font-size: 24px;
     font-weight: 700;
-    background-image: url('../images/Header_background.jpg');
+    background-image: url('../images/Header_background_tiny.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -403,6 +405,7 @@ header{
     border-radius: 0px 0px 50px 50px;
     border: none;
 }
+
 
 header.before{
 	z-index:-1;
