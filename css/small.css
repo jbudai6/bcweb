@@ -35,6 +35,10 @@ body h3 {
     margin: auto;
 }
 
+.row-margin{
+margin-bottom: 7.5vw;
+}
+
 .column {
 	float: left;  
 	padding-left: 5vw;
@@ -169,7 +173,31 @@ body h3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5vw;
+	margin-bottom:7.5vw;
+}
+
+.button-syle-send-msg-inner{
+	color:#FB7161;
+	font-size: 14px;
+	line-height:21px;
+	font-weight:400;
+	background:none;
+	padding: 20px 40px;
+	border-radius: 10px;
+	border: 1.5px solid #FB7161;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button-syle-send-msg{
+	background:none;
+	padding: 0;
+	border:none;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 button:hover{
@@ -177,6 +205,10 @@ button:hover{
 color:#FFFFFF;
 background-color:#FB7161;
 
+}
+
+input:hover{
+color:#FFFFFF;
 }
 
 .orange{
