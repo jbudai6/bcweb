@@ -412,7 +412,9 @@ main h6{
 }
 
 .overlay{
-background-color: rgba(11,54,81,.1);
+background-color: rgb(11,54,81);
+opacity:0.5;
+z-index:1;
 }
 
 .label-for-check{
@@ -434,10 +436,16 @@ visibility:hidden;
 }
 
 .inv-bus:checked + .label-for-check{
+z-index:1;
 color:#FFFFFF;
 border-bottom: 3px solid #71CBAB; 
 text-decoration: none;
 background-color: none;
+}
+
+.inv-bus:checked + .overlay{
+background-color: rgb(11,54,81);
+opacity:1.0;
 }
 
 header{
