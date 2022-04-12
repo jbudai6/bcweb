@@ -308,7 +308,7 @@
 	
 <div class="row dark-background">
 	<div id="contactUs" class="row center-align-small">
-        <section class="column small-12 medium-6 large-3">
+        <section class="column small-12">
             <h2>Get In Touch</h2>
         </section>		
     </div> <!-- end row -->	
@@ -333,48 +333,32 @@
 	</section>
 	</div><!-- end row -->	
 	
-
-	<div class="row center-align-small">
-        <section class="column small-12 img-medium-remove">
-            <h5 class="h5-alt">How much do you want to invest?</h5>
-        </section>		
-    </div> <!-- end row -->	
-	
-	<!--<div class="row">
-	<section class="container-geo small-12-img img-medium-remove">
-		<div class="slidecontainer">
-			<div id="demo" class="bubble"></div>
-			<input type="range" min="100" max="100000" value="50000" step="10" class="slider no-border" id="myRange">
-		</div>
-    </section>
-	</div><!-- end row -->	
-	
 	
 	<div class="row">
-	<div class="img-txt-container">
-	<section class="column medium-3 large-3 img-small-remove">
+	<div class="img-txt-container-2">
+	<section class="column medium-4 img-small-remove">
 	<input type="checkbox" id="investors4" class="inv-bus" value="For Investors">
 	<button id="investors6" class="label-for-check overlay">
 		For Investors
 	</button>
     </section>
 
-	<section class="column medium-9 large-9 img-small-remove">
+	<section id="sliderId2" class="column column-center-small small-12 medium-8">
         <h5 class="h5-alt">How much do you want to invest?</h5>
     </section>
 	</div>
 	</div><!-- end row -->	
 	
-	<div class="row row-center-align">
-	<div class="img-txt-container">
-	<section class="column medium-3 large-3 img-small-remove">
+	<div class="row">
+	<div class="img-txt-container-2">
+	<section class="column medium-4 img-small-remove">
 	<input type="checkbox" id="businesses4" class="inv-bus" value="For Businesses">
 	<button id="businesses6" class="label-for-check overlay">
 		For Businesses
     </button>
 	</section>
 	
-	<section class="column small-12 medium-9 large-9"><!--small-12-img medium-9-img">-->
+	<section id="sliderId3" class="column small-12 medium-8"><!--small-12-img medium-9-img">-->
 	<div class="container-geo">
 		<div class="slidecontainer">
 			<div id="demo" class="bubble"></div>
@@ -387,7 +371,7 @@
 
 	
 	<div class="row">
-	<section class="column-right small-12 medium-9">
+	<section class="column-right small-12 medium-8">
         <form>
 			<label for="email"><h6>Email Address</h6></label>
 			<input class="textbox-syle" type="text" id="email" name="email"><br><br>
@@ -605,6 +589,9 @@
 		var myBusinessButton5 = document.getElementById("businesses5");
 		var myBusinessButton6 = document.getElementById("businesses6");
 		
+		var mySlider2 = document.getElementById("sliderId2");
+		var mySlider3 = document.getElementById("sliderId3");
+		
 		myInvestorButton3.checked = true;
 		myInvestorButton4.checked = true;
 		
@@ -614,6 +601,9 @@
 			
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
+			
+			mySlider2.style.display = 'block';
+			mySlider3.style.display = 'block';
 		})
 		
 		myInvestorButton2.addEventListener("click", function(){
@@ -622,6 +612,9 @@
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
+			
+			mySlider2.style.display = 'block';
+			mySlider3.style.display = 'block';
 		})
 		
 		myInvestorButton5.addEventListener("click", function(){
@@ -630,6 +623,9 @@
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
+			
+			mySlider2.style.display = 'block';
+			mySlider3.style.display = 'block';
 		})
 		
 		myInvestorButton6.addEventListener("click", function(){
@@ -638,6 +634,9 @@
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
+			
+			mySlider2.style.display = 'block';
+			mySlider3.style.display = 'block';
 		})
 		
 		myBusinessButton1.addEventListener("click", function(){
@@ -646,6 +645,9 @@
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
+			
+			mySlider2.style.display = 'none';
+			mySlider3.style.display = 'none';
 		})
 		
 		myBusinessButton2.addEventListener("click", function(){
@@ -654,6 +656,9 @@
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
+			
+			mySlider2.style.display = 'none';
+			mySlider3.style.display = 'none';
 		})
 		
 		myBusinessButton5.addEventListener("click", function(){
@@ -662,6 +667,9 @@
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
+			
+			mySlider2.style.display = 'none';
+			mySlider3.style.display = 'none';
 		})
 		
 		myBusinessButton6.addEventListener("click", function(){
@@ -670,6 +678,9 @@
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
+			
+			mySlider2.style.display = 'none';
+			mySlider3.style.display = 'none';
 		})
 		
 		

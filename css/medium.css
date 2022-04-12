@@ -165,6 +165,16 @@ background-color: none;
 		padding-bottom:50px;
 		padding-left:3vw;
 	}
+	
+	.column-center-small {
+	text-align:left;
+	margin-left:none;
+	margin-right: none;
+	float: left; 
+	padding-left: 5vw;
+	padding-right: 5vw; 
+	margin: 0 0 0 0;
+	}
 
 
 	header{
