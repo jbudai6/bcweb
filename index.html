@@ -372,7 +372,7 @@
 	
 	<div class="row">
 	<section class="column-right small-12 medium-8">
-        <form>
+        <form name="submit-to-google-sheet">
 			<label for="email"><h6>Email Address</h6></label>
 			<input class="textbox-syle" type="text" id="email" name="email"><br><br>
 			<label for="message"><h6>Message</h6></label>
@@ -380,7 +380,7 @@
 			<div class="button-container">
 			<button class="button-syle-send-msg"><input class="button-syle-send-msg-inner" type="submit" value="Send Message"></button>
 			</div>
-		</form>		
+		</form>	
     </section>
 	</div><!-- end row -->	
 	
@@ -686,6 +686,22 @@
 		
 		
 	</script>
+	
+	<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+	<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+	
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbx9mN9eUgNVfx2yhuYc0ZldokiJ1E0hO2a-cg0-aINfcJZVKNEdz4J-LCeq1uqignxy/exec'
+		const form = document.forms['submit-to-google-sheet']
+
+		form.addEventListener('submit', e => {
+			e.preventDefault()
+			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+		})
+</script>
 	
 </body>
 </html>

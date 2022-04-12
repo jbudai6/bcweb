@@ -241,6 +241,9 @@ color:#FFFFFF;
 	margin-right:auto;
 }
 
+.textbox-syle:hover{
+	color: #4F4F4F;
+}
 
 .textbox-syle{
 	border-radius: 10px;
