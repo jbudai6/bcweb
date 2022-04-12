@@ -413,11 +413,14 @@ main h6{
 
 .overlay{
 background-color: rgb(11,54,81);
-opacity:0.5;
+opacity:0.3;
 z-index:1;
 }
 
 .label-for-check{
+font-size: 20px;
+line-height: 32px;
+font-weight:700;
 background-color: #0B3651;
 border: none;
 color: #FFFFFF;
@@ -438,7 +441,7 @@ visibility:hidden;
 .inv-bus:checked + .label-for-check{
 z-index:1;
 color:#FFFFFF;
-border-bottom: 3px solid #71CBAB; 
+border-bottom: 3px solid #71CBAB;
 text-decoration: none;
 background-color: none;
 }

@@ -117,5 +117,25 @@
 		line-height: 32px;
 		font-weight:700;
 }
+
+.label-for-check{
+font-size: 24px;
+line-height:36px;
+font-weight:700;
+background-color: #0B3651;
+border: none;
+color: #FFFFFF;
+z-index:2;
+}
+
+.container-geo {
+		display: flex;
+		align-items: center;
+		justify-content: left;
+		flex-direction: row;
+		padding-top:40px;
+		padding-bottom:50px;
+		padding-left:3vw;
+	}
     
 } /* end of media query */
