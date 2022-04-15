@@ -694,10 +694,12 @@
 		var slider = document.getElementById("myRange");	
 		document.getElementById("investAmount").value = Number(slider.value).toLocaleString();
 		
+		// TODO: Fix this
 		if ( document.getElementById("investors3").checked )
 		{
 			document.getElementById("customerType").value = "Investor";
-		}else
+		}
+		else
 		{
 			document.getElementById("customerType").value = "Business";
 			document.getElementById("investAmount").value = "Not applicable";
