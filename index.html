@@ -527,7 +527,6 @@
     <script>
 		var slider = document.getElementById("myRange");	
 		var output = document.getElementById("demo");
-		var investAmount = document.getElementById("investAmount").value;
 		
 		output.innerHTML = Number(slider.value).toLocaleString();
 		output.style.left = `calc(${0}%)`;
@@ -535,7 +534,6 @@
 
 		slider.oninput = function() {
 		  const val = slider.value;
-		  investAmount = slider.value;
 		  const min = slider.min;
 		  const max = slider.max;
 		  const newVal = Number(((val - min) * 100) / (max - min));
@@ -598,12 +596,9 @@
 		myInvestorButton3.checked = true;
 		myInvestorButton4.checked = true;
 		
-		var customerType = document.getElementById("customerType").value = "Investor";
-		
 		myInvestorButton1.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType = "Investor";
 			
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -615,7 +610,6 @@
 		myInvestorButton2.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -627,7 +621,6 @@
 		myInvestorButton5.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -639,7 +632,6 @@
 		myInvestorButton6.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -651,7 +643,6 @@
 		myBusinessButton1.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -663,7 +654,6 @@
 		myBusinessButton2.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -675,7 +665,6 @@
 		myBusinessButton5.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -687,7 +676,6 @@
 		myBusinessButton6.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -703,6 +691,9 @@
 	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 	
 	<script>
+		var slider = document.getElementById("myRange");	
+		var investAmount = document.getElementById("investAmount").value = slider.value;
+	
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbyLfj_HjcZcrfAJ9V8yO3euj5ooTHKq4nSrbNC5E6ojSbNaImwO_q6HVd6-PDme1gEy/exec'
 		const form = document.forms['submit-to-google-sheet']
 
