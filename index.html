@@ -693,6 +693,18 @@
 	<script>
 		var slider = document.getElementById("myRange");	
 		document.getElementById("investAmount").value = Number(slider.value).toLocaleString();
+		
+		var investorCust = document.getElementById("investors3");
+		
+		
+		if ( investorCust.checked === true )
+		{
+			document.getElementById("customerType").value = "Investor";
+		}else
+		{
+			document.getElementById("customerType").value = "Business";
+			document.getElementById("investAmount").value = "Not applicable";
+		}
 	
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbyLfj_HjcZcrfAJ9V8yO3euj5ooTHKq4nSrbNC5E6ojSbNaImwO_q6HVd6-PDme1gEy/exec'
 		const form = document.forms['submit-to-google-sheet']
