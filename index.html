@@ -373,8 +373,8 @@
 	<div class="row">
 	<section class="column-right small-12 medium-8">
         <form name="submit-to-google-sheet">
-			<input type="hidden" id="customerType" name="customerType">
-			<input type="hidden" id="investAmount" name="investAmount">
+			<input type="hidden" id="customerType" name="customerType" value="Investor">
+			<input type="hidden" id="investAmount" name="investAmount" value="100">
 			<label for="email"><h6>Email Address</h6></label>
 			<input class="textbox-syle" type="text" id="email" name="email"><br><br>
 			<label for="message"><h6>Message</h6></label>
@@ -527,7 +527,7 @@
     <script>
 		var slider = document.getElementById("myRange");	
 		var output = document.getElementById("demo");
-		var investAmount = document.getElementById("investAmount");
+		var investAmount = document.getElementById("investAmount").value;
 		
 		output.innerHTML = Number(slider.value).toLocaleString();
 		output.style.left = `calc(${0}%)`;
@@ -578,9 +578,7 @@
 		
 	</script>
 	
-		<script>
-		var customerType = document.getElementById("customerType");
-		
+		<script>	
 		var myInvestorButton1 = document.getElementById("investors1");
 		var myInvestorButton2 = document.getElementById("investors2");
 		var myInvestorButton3 = document.getElementById("investors3");
@@ -601,12 +599,12 @@
 		myInvestorButton3.checked = true;
 		myInvestorButton4.checked = true;
 		
-		customerType.value = "Investor";
+		var customerType = document.getElementById("customerType").value = "Investor";
 		
 		myInvestorButton1.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType.value = "Investor";
+			customerType = "Investor";
 			
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -618,7 +616,7 @@
 		myInvestorButton2.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType.value = "Investor";
+			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -630,7 +628,7 @@
 		myInvestorButton5.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType.value = "Investor";
+			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -642,7 +640,7 @@
 		myInvestorButton6.addEventListener("click", function(){
 			myInvestorButton3.checked = true;
 			myInvestorButton4.checked = true;
-			customerType.value = "Investor";
+			customerType = "Investor";
 						
 			myBusinessButton3.checked = false;
 			myBusinessButton4.checked = false;
@@ -654,7 +652,7 @@
 		myBusinessButton1.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType.value = "Business";
+			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -666,7 +664,7 @@
 		myBusinessButton2.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType.value = "Business";
+			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -678,7 +676,7 @@
 		myBusinessButton5.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType.value = "Business";
+			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
@@ -690,7 +688,7 @@
 		myBusinessButton6.addEventListener("click", function(){
 			myBusinessButton3.checked = true;
 			myBusinessButton4.checked = true;
-			customerType.value = "Business";
+			customerType = "Business";
 			
 			myInvestorButton3.checked = false;
 			myInvestorButton4.checked = false;
