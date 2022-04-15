@@ -692,8 +692,7 @@
 	
 	<script>
 		var slider = document.getElementById("myRange");	
-		var investAmount = document.getElementById("investAmount").value;
-		investAmount = slider.value;
+		document.getElementById("investAmount").value = Number(slider.value).toLocaleString();
 	
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbyLfj_HjcZcrfAJ9V8yO3euj5ooTHKq4nSrbNC5E6ojSbNaImwO_q6HVd6-PDme1gEy/exec'
 		const form = document.forms['submit-to-google-sheet']
