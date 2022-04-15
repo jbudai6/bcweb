@@ -531,12 +531,11 @@
 		
 		output.innerHTML = Number(slider.value).toLocaleString();
 		output.style.left = `calc(${0}%)`;
-		investAmount = Number(slider.value).toLocaleString();
 
 
 		slider.oninput = function() {
 		  const val = slider.value;
-		  investAmount = Number(slider.value).toLocaleString();
+		  investAmount = slider.value;
 		  const min = slider.min;
 		  const max = slider.max;
 		  const newVal = Number(((val - min) * 100) / (max - min));
