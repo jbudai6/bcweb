@@ -477,7 +477,8 @@ opacity:1.0;
 header{
     font-size: 24px;
     font-weight: 700;
-    background-image: url('../images/Header_background.jpg');
+    background-image: url('../images/Why_invest.jpg');
+    background-attachment: scroll;
     background-repeat: no-repeat; 
     background-size: cover;
     color: #FFFFFF;
@@ -491,10 +492,6 @@ header{
 
 header.before{
 	z-index:-1;
-}
-
-header.after{
-	background-image: url('../images/Header_background_mobile.jpg');
 }
 
 header h1{
