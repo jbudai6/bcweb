@@ -85,10 +85,10 @@
 	header{
 		font-size: 24px;
 		font-weight: 700;
-		background-image: url('../images/Header_background.jpg');
-		background-repeat: no-repeat;
-		background-attachment: fixed;  
-		background-size: cover;
+		background-image: url('../images/Header_background_Corner.jpg');
+		background-attachment: scroll;
+		background-repeat: no-repeat; 
+		background-size: contain;
 		color: #FFFFFF;
 		height:60vw;
 	}
