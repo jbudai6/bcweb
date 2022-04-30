@@ -703,19 +703,24 @@
 	
 	<script>
 		var thanksMsg = document.getElementById("thanks");
-	
-		var slider = document.getElementById("myRange");	
-		document.getElementById("investAmount").value = Number(slider.value).toLocaleString();
+		
+		var slider = document.getElementById("myRange");
+		var investAmt = document.getElementById("investAmount");
+		
+		
+		var investor = document.getElementById("investors3");
+		var custType = document.getElementById("customerType");
 		
 		// TODO: Fix this
-		if ( document.getElementById("investors3").checked )
+		if ( investor.checked )
 		{
-			document.getElementById("customerType").value = "Investor";
+			custType.value = 'Investor';
+			investAmt.value = Number(slider.value).toLocaleString();
 		}
 		else
 		{
-			document.getElementById("customerType").value = "Business";
-			document.getElementById("investAmount").value = "Not applicable";
+			custType.value = 'Business';
+			investAmt.value = 'Not applicable';
 		}
 	
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbyLfj_HjcZcrfAJ9V8yO3euj5ooTHKq4nSrbNC5E6ojSbNaImwO_q6HVd6-PDme1gEy/exec'
@@ -725,8 +730,8 @@
 			e.preventDefault()
 			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 			.then(
-				thanksMsg.style.display = "block";
-				setTimeout(function(){ div.style.display = "none"; }, 600);
+				thanksMsg.style.display = 'block';
+				setTimeout(function(){ div.style.display = 'none'; }, 600);
 			)
 			)
 			.catch(
