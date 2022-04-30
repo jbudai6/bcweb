@@ -301,13 +301,11 @@
 	
 	
 	
-	
-	
-	
-	
-	
+<div class="msg-container">
 <div class="row dark-background">
-	<div id="contactUs" class="row center-align-small">
+
+<div class="getInTouch">
+	<div id="contactUs" class="row center-align-small ">
         <section class="column small-12">
             <h2>Get In Touch</h2>
         </section>		
@@ -386,10 +384,23 @@
     </section>
 	</div><!-- end row -->	
 	
+	</div>
+	
+	<div id="thanks" class="thanks">
+	<div class="row center-align">
+        <!-- ADD IMAGE HERE -->	
+		<section class="column small-12">
+            <h2>Thank you!</h2>
+			<h3>Your message was sent.</h3>
+        </section>				
+		</div> <!-- end row -->	
+	</div>	
+	
+</div>
 </div>
 
 	
-	
+
 	
 
 	
@@ -691,6 +702,8 @@
 	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 	
 	<script>
+		var thanksMsg = document.getElementById("thanks");
+	
 		var slider = document.getElementById("myRange");	
 		document.getElementById("investAmount").value = Number(slider.value).toLocaleString();
 		
@@ -711,8 +724,14 @@
 		form.addEventListener('submit', e => {
 			e.preventDefault()
 			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-			.then(response => console.log('Success!', response))
-			.catch(error => console.error('Error!', error.message))
+			.then(
+				thanksMsg.style.display = "block";
+				)
+			)
+			.catch(
+			// TODO: Add error msg?
+			error => console.error('Error!', error.message)
+			)
 		})
 </script>
 	
