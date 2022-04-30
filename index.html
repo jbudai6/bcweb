@@ -726,7 +726,8 @@
 			fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 			.then(
 				thanksMsg.style.display = "block";
-				)
+				setTimeout(function(){ div.style.display = "none"; }, 600);
+			)
 			)
 			.catch(
 			// TODO: Add error msg?
