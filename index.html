@@ -702,26 +702,6 @@
 	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 	
 	<script>
-		var thanksMsg = document.getElementById("thanks");
-		
-		var slider = document.getElementById("myRange");
-		var investAmt = document.getElementById("investAmount");
-		
-		
-		var investor = document.getElementById("investors3");
-		var custType = document.getElementById("customerType");
-		
-		// TODO: Fix this
-		if ( investor.checked )
-		{
-			custType.value = 'Investor';
-			investAmt.value = Number(slider.value).toLocaleString();
-		}
-		else
-		{
-			custType.value = 'Business';
-			investAmt.value = 'Not applicable';
-		}
 	
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbyLfj_HjcZcrfAJ9V8yO3euj5ooTHKq4nSrbNC5E6ojSbNaImwO_q6HVd6-PDme1gEy/exec'
 		const form = document.forms['submit-to-google-sheet']
